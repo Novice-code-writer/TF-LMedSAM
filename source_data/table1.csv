@@ -1,0 +1,3 @@
+﻿dataset,images,train,validation,test,MA_fraction,HE_fraction,EX_fraction,SE_fraction
+IDRiD,81,43,11,27,0.0008,0.0012,0.0025,0.0015
+DDR,757,383,149,225,0.0005,0.0009,0.0018,0.0011

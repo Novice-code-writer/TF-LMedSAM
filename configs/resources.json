@@ -1,0 +1,52 @@
+{
+  "datasets": {
+    "IDRiD": {
+      "homepage": "https://idrid.grand-challenge.org/Data/",
+      "doi": "10.21227/H25W98",
+      "task": "lesion segmentation",
+      "official_development_images": 54,
+      "official_test_images": 27,
+      "local_validation_selection_seed": 20261112
+    },
+    "DDR": {
+      "homepage": "https://github.com/nkicsl/DDR-dataset",
+      "task": "lesion_segmentation",
+      "expected_counts_in_manuscript": {
+        "train": 383,
+        "val": 149,
+        "test": 225
+      }
+    }
+  },
+  "MedSAM": {
+    "project": "https://github.com/bowang-lab/MedSAM",
+    "architecture": "ViT-B",
+    "checkpoint_path": null,
+    "checkpoint_sha256": null,
+    "checkpoint_identifier": "medsam_vit_b.pth",
+    "checkpoint_source_url": "https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN",
+    "implementation_package": "segment-anything",
+    "implementation_revision": "dca509fe793f601edb92606367a655c15ac00fdf"
+  },
+  "PubMedCLIP": {
+    "project": "https://github.com/sarahESL/PubMedCLIP",
+    "local_model_directory": null,
+    "model_identifier": "sarahESL/PubMedCLIP:PubMedCLIP_ViT32.pth",
+    "tokenizer_identifier": "openai/clip-vit-base-patch32",
+    "revision": "c5885a5c0ba8ac8d86341e57c8466e49783874c1",
+    "checkpoint_identifier": "PubMedCLIP_ViT32.pth",
+    "checkpoint_source_url": "https://huggingface.co/sarahESL/PubMedCLIP/resolve/c5885a5c0ba8ac8d86341e57c8466e49783874c1/PubMedCLIP_ViT32.pth",
+    "local_format": "transformers.CLIPTextModel",
+    "source_format_conversion_required": true,
+    "text_hidden_size": 512,
+    "tokenizer_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "tokenizer_class": "transformers.CLIPTokenizer",
+    "max_length": 77,
+    "vocabulary_size": 49408
+  },
+  "SegmentAnything": {
+    "project": "https://github.com/facebookresearch/segment-anything",
+    "package_version": "1.0",
+    "revision": "dca509fe793f601edb92606367a655c15ac00fdf"
+  }
+}

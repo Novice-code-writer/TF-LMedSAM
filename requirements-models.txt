@@ -1,0 +1,6 @@
+-r requirements.txt
+transformers==4.45.2
+ftfy==6.3.1
+regex==2024.11.6
+torchvision==0.22.1+cpu
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@dca509fe793f601edb92606367a655c15ac00fdf

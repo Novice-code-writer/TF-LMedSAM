@@ -1,0 +1,5 @@
+﻿method,IDRiD_to_DDR_Dice_percent,DDR_to_IDRiD_Dice_percent
+U-Net,52.3,55.1
+TransUNet,58.6,61.2
+MedSAM,65.4,68.7
+TF-LMedSAM,70.5,73.2

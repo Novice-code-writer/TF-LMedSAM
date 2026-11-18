@@ -1,0 +1,52 @@
+{
+  "headers": [
+    "Method",
+    "Year",
+    "Segmentation design",
+    "Guidance",
+    "Adaptation or feature strategy",
+    "DOI"
+  ],
+  "rows": [
+    [
+      "Bi-VLGM",
+      "2025",
+      "Class- and severity-aware vision–language graph matching",
+      "Vision–language alignment",
+      "Graph matching",
+      "10.1007/s11263-024-02246-w"
+    ],
+    [
+      "SDC-Net",
+      "2025",
+      "Shallow–deep collaboration with wavelet-guided attention",
+      "Visual features",
+      "Shallow–deep feature collaboration",
+      "10.1167/tvst.14.12.28"
+    ],
+    [
+      "DDFU-Net",
+      "2026",
+      "Asymmetric U-Net with deeper decoder",
+      "Visual features",
+      "Decoder detail recovery",
+      "10.1007/s10439-026-04032-w"
+    ],
+    [
+      "CMAC-Net",
+      "2026",
+      "Cascaded multiscale attention and convolution",
+      "Visual features",
+      "Multiscale lesion representation",
+      "10.1016/j.bspc.2025.108484"
+    ],
+    [
+      "TF-LMedSAM",
+      "—",
+      "Frozen MedSAM, residual adapters and lightweight decoder",
+      "Four fixed lesion descriptions",
+      "Text fusion and parameter-efficient adaptation",
+      "—"
+    ]
+  ]
+}

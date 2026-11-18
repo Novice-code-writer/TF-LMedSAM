@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14",
+  "operating_system": "Windows 10 Education 64-bit, build 19045",
+  "core": {
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.18.0",
+    "Pillow": "13.0.0",
+    "matplotlib": "3.11.2"
+  },
+  "model_resources": {
+    "torchvision": "0.22.1+cpu",
+    "transformers": "4.45.2",
+    "ftfy": "6.3.1",
+    "regex": "2024.11.6",
+    "segment-anything": "1.0"
+  },
+  "plotting": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.0",
+    "Pillow": "13.0.0",
+    "matplotlib": "3.11.2"
+  },
+  "execution_backend": "cpu",
+  "cuda_runtime": null,
+  "observed_pipeline_context": "../数据记录/pipeline_full/run_context.json",
+  "resources": "resources.json",
+  "requirements_core": "../requirements.txt",
+  "requirements_models": "../requirements-models.txt",
+  "requirements_plotting": "../requirements-plotting.txt"
+}

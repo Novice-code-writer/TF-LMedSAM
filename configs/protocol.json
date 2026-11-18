@@ -1,0 +1,125 @@
+{
+  "seed": 20261112,
+  "classes": [
+    "MA",
+    "HE",
+    "EX",
+    "SE"
+  ],
+  "datasets": {
+    "IDRiD": {
+      "train": 43,
+      "val": 11,
+      "test": 27
+    },
+    "DDR": {
+      "train": 383,
+      "val": 149,
+      "test": 225
+    }
+  },
+  "preprocessing": {
+    "input_size": 1024,
+    "image_interpolation": "bilinear",
+    "mask_interpolation": "nearest",
+    "augmentation": false,
+    "mask_threshold": 0,
+    "retain_black_background": true
+  },
+  "model": {
+    "backbone": "MedSAM ViT-B",
+    "encoder_depth": 12,
+    "hidden_width": 768,
+    "frozen_backbone": true,
+    "adapter_rank": 64,
+    "adapter_activation": "GELU",
+    "adapter_bias": false,
+    "adapter_up_init": "zero",
+    "adapter_down_init": "Kaiming",
+    "feature_taps": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "feature_pool_factors": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "fusion_channels": 256,
+    "attention_heads": 8,
+    "decoder_layers": 2,
+    "coarse_grid_divisor": 2,
+    "refinement": "upsampled coarse logit concatenated with projected first-layer features, then 1x1 convolution",
+    "output_classes_independent": true,
+    "final_resize": {
+      "mode": "bilinear",
+      "align_corners": false,
+      "size": [
+        1024,
+        1024
+      ],
+      "domain": "logits before sigmoid"
+    }
+  },
+  "training": {
+    "epochs": 100,
+    "batch_size": 4,
+    "accumulation_steps": 4,
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "scheduler": "cosine",
+    "validate_every": 5,
+    "selection": "highest validation macro Dice; keep earlier ties",
+    "early_stopping": false
+  },
+  "loss": {
+    "dice_weight": 1.0,
+    "bce_weight": 1.0,
+    "alpha": 1.0,
+    "beta": 0.1
+  },
+  "evaluation": {
+    "threshold": 0.5,
+    "empty_reference_overlap": "undefined",
+    "aggregation": "image mean within class, then equal class mean",
+    "report_negative_image_false_positives": true
+  },
+  "profiling": {
+    "batch_size": 1,
+    "warmup": 30,
+    "iterations": 100,
+    "dtype": "float32",
+    "cache_text_before_timing": true,
+    "include_preprocessing": false,
+    "include_disk_io": false
+  },
+  "ablation": {
+    "baseline": {
+      "adapter": false,
+      "decoder": "linear",
+      "uncertainty": false
+    },
+    "adapter": {
+      "adapter": true,
+      "decoder": "linear",
+      "uncertainty": false
+    },
+    "text": {
+      "adapter": true,
+      "text_fusion": true,
+      "decoder": "bidirectional",
+      "uncertainty": false
+    },
+    "full": {
+      "adapter": true,
+      "text_fusion": true,
+      "decoder": "bidirectional",
+      "uncertainty": true
+    }
+  }
+}

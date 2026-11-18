@@ -1,0 +1,9 @@
+﻿method,IDRiD_Dice_percent,IDRiD_IoU_percent,DDR_Dice_percent,DDR_IoU_percent
+U-Net,65.92,52.1,58.2,45.3
+Att-UNet,68.45,54.2,60.1,47.1
+CE-Net,70.12,56.3,62.3,49.2
+TransUNet,72.5,59.1,65.4,52.4
+Swin-Unet,74.32,61.2,67.8,54.6
+MedSAM (Full),76.12,63.5,69.5,56.8
+MedSAM Adapter,76.85,64.1,70.2,57.5
+TF-LMedSAM,78.42,66.8,72.15,59.9
