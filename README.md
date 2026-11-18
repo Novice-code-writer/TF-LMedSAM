@@ -1,3 +1,6 @@
+# TF-LMedSAM
+Code, configurations, and analysis scripts accompanying “Lightweight MedSAM Retinal Lesion Fine-Grained Segmentation Integrating Text Prompts and Visual Adapter”, with workflows for IDRiD and DDR.
+
 # TF-LMedSAM experiment workflow
 
 Use Python 3.12.14 and install requirements.txt. For pretrained model preparation and text export, install requirements-models.txt. Use requirements-plotting.txt in a separate plotting environment. The dependency versions and environment roles are recorded in configs/environment.json. The configuration follows manuscript Sections 2 and 3: 12 ViT-B layers, rank 64 adapters, taps 3/6/9/12, 256 fusion channels, 8 heads, 2 decoder layers, AdamW, 100 epochs and no random augmentation.
