@@ -11,12 +11,12 @@ from matplotlib.patches import FancyBboxPatch,FancyArrowPatch
 from matplotlib.ticker import MultipleLocator
 
 ROOT=Path(__file__).resolve().parent
-OUT=ROOT.parent/'图';RECORD=ROOT.parent/'数据记录'
+from project_paths import FIGURES as OUT, RECORDS as RECORD, UNIFIED, source_file
 OUT.mkdir(exist_ok=True);RECORD.mkdir(exist_ok=True)
 plt.rcParams.update({'font.family':'Arial','font.size':10,'axes.titlesize':10,'axes.labelsize':11,'axes.linewidth':.9,'savefig.facecolor':'white'})
 COLORS=['#597B99','#819A78','#BD9366','#8D83AE','#477F85','#B84B48']
 def read(name):
-    with (ROOT/'source_data'/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+    with (source_file(name)).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 def csvout(name,rows):
     with (RECORD/name).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
@@ -70,6 +70,12 @@ def overlay(image,mask,color):
     out=x.copy();out[mask]=.35*x[mask]+.65*np.array(color)
     return out
 def main():
+    active=UNIFIED
+    if (active/'verification.json').is_file():
+        from render_unified import render
+        render(active)
+        print('Active unified records used; figure exports are in figures/. Run export_figure_data.py to refresh the corresponding CSV files.')
+        return
     # Figure 1: the image encoder without a classification branch.
     fig,ax=plt.subplots(figsize=(11.5,4.8));ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
     box(ax,.025,.66,.13,.17,'Fundus image\n1024 × 1024')

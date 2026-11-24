@@ -1,0 +1,30 @@
+{
+  "record_type": "reference_timing_example",
+  "method": "TF-LMedSAM",
+  "actual_model_executed": false,
+  "measured_on_current_host": false,
+  "device": null,
+  "hardware_attribution": null,
+  "reference_fps": 28.0,
+  "construction_seed": 20261115,
+  "construction": "positive lognormal examples normalized to the frozen reference FPS",
+  "example_summary": {
+    "frames_per_second": 28.0,
+    "elapsed_seconds": 17.857142857142858,
+    "processed_images": 500,
+    "measured_iterations": 500,
+    "benchmark_runs": 5,
+    "median_latency_ms": 35.655776264957645,
+    "p95_latency_ms": 37.37435557633482,
+    "fps_ci95": [
+      27.69715096443957,
+      28.30792461515343
+    ],
+    "interval_resampling_unit": "benchmark run",
+    "bootstrap_replicates": 2000
+  },
+  "interval_scope": "variation within generated examples; not measured hardware uncertainty",
+  "raw_samples_path": "method_4_samples.csv",
+  "raw_samples_sha256": "bb25dabe5dfae460273c4a9469b0885271f15efab2dff62c49e737cb536e8409",
+  "intended_protocol": "../benchmark_protocol.json"
+}

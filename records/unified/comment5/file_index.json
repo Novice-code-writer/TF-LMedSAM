@@ -1,0 +1,21 @@
+{
+  "path_base": "records/unified/comment5",
+  "files": [
+    {
+      "path": "figure_provenance.json",
+      "sha256": "25606daa72e192048a67bb306c17c017d5a09c07899ce1f0eb876650f691d52a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d4f0d89a68454b203a02a2a0dd925d17a29fdf99bb1434119482576b0ba4975d"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "5f6ecce4198b73662b711103f61edb80964ff2a92b56dda964a049de69f7b5ea"
+    },
+    {
+      "path": "材料说明.txt",
+      "sha256": "8bba82e55f2999fb28809b1af53eb7ebe03de6fc73a28f6c2a4a7a9320ed1f48"
+    }
+  ]
+}

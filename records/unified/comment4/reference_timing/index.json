@@ -1,0 +1,40 @@
+{
+  "record_type": "reference_timing_example",
+  "models_executed": 0,
+  "methods": [
+    {
+      "method": "U-Net",
+      "reference_fps": 45.0,
+      "rows": 500,
+      "summary": "method_1_summary.json",
+      "record_type": "reference_timing_example",
+      "measured_on_current_host": false
+    },
+    {
+      "method": "TransUNet",
+      "reference_fps": 20.0,
+      "rows": 500,
+      "summary": "method_2_summary.json",
+      "record_type": "reference_timing_example",
+      "measured_on_current_host": false
+    },
+    {
+      "method": "MedSAM (Full)",
+      "reference_fps": 15.0,
+      "rows": 500,
+      "summary": "method_3_summary.json",
+      "record_type": "reference_timing_example",
+      "measured_on_current_host": false
+    },
+    {
+      "method": "TF-LMedSAM",
+      "reference_fps": 28.0,
+      "rows": 500,
+      "summary": "method_4_summary.json",
+      "record_type": "reference_timing_example",
+      "measured_on_current_host": false
+    }
+  ],
+  "total_example_rows": 2000,
+  "actual_measured_fps_available": false
+}

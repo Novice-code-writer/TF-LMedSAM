@@ -1,0 +1,29 @@
+{
+  "primary_comparison_metric": "Dice",
+  "secondary_metric": "IoU (descriptive intervals)",
+  "confidence_level": 0.95,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 4999,
+  "base_seed": 20261112,
+  "seed_derivation": "base_seed + first seven hexadecimal digits of SHA256(result-specific seed key)",
+  "bootstrap_unit": "image; all lesion classes and paired methods retained together",
+  "bootstrap_estimator": "mean of per-class image means; undefined overlaps excluded within each class",
+  "bootstrap_class_coverage": "Exclude and count replicates missing any class represented in the original estimand",
+  "pairing": "same sorted image identifiers and identical reference-defined class eligibility",
+  "permutation": "two-sided absolute class-balanced paired difference; one common random sign per image",
+  "randomized_p_correction": "(extreme random assignments + 1) / (4999 + 1)",
+  "multiplicity": "Holm within each comparison family",
+  "families": {
+    "ablation_IDRiD": 3,
+    "comparison_DDR": 7,
+    "comparison_IDRiD": 7,
+    "cross_DDR_to_IDRiD": 3,
+    "cross_IDRiD_to_DDR": 3,
+    "training_fraction_DDR": 6
+  },
+  "reference_empty_rule": "Dice/IoU undefined for reference-empty classes; retain false-positive counts separately",
+  "image_macro_rule": "Mean of reference-positive class scores; entirely reference-empty images excluded from Dice distribution",
+  "negative_image_reporting": "Separate negative image counts and false-positive image rates; undefined if no negative records",
+  "sampling_scope": "test-image variation conditional on fixed outputs; assess patient clustering when patient identifiers are available",
+  "timing_protocol": "benchmark.py retains every measured iteration; intervals resample run totals, not segmentation pixels"
+}

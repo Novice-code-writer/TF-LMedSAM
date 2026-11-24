@@ -1,0 +1,149 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "rows": [
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 59.250330757524026,
+      "median_percent": 66.68073508929791,
+      "q3_percent": 73.35589253326924,
+      "iqr_pp": 14.105561775745215
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 63.89533782021351,
+      "median_percent": 67.547335841217,
+      "q3_percent": 73.55031937603292,
+      "iqr_pp": 9.654981555819404
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 64.82896090571666,
+      "median_percent": 70.27321124115468,
+      "q3_percent": 74.41998413177434,
+      "iqr_pp": 9.591023226057686
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 66.97189146625178,
+      "median_percent": 69.87564646079431,
+      "q3_percent": 77.22710911240199,
+      "iqr_pp": 10.255217646150214
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 69.66257101606288,
+      "median_percent": 73.63080308244004,
+      "q3_percent": 80.23720477653256,
+      "iqr_pp": 10.57463376046968
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 72.9273821327128,
+      "median_percent": 75.78328732575154,
+      "q3_percent": 80.56520078063065,
+      "iqr_pp": 7.637818647917854
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 72.9453374513933,
+      "median_percent": 78.44143737117565,
+      "q3_percent": 81.18527913989064,
+      "iqr_pp": 8.239941688497339
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "n": 27,
+      "excluded_images": 0,
+      "q1_percent": 74.84461862132116,
+      "median_percent": 79.2863374720276,
+      "q3_percent": 82.18687116421856,
+      "iqr_pp": 7.342252542897398
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 49.75381573727365,
+      "median_percent": 57.192084912737485,
+      "q3_percent": 68.30583951817367,
+      "iqr_pp": 18.552023780900022
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 52.78504082575534,
+      "median_percent": 59.65349212298703,
+      "q3_percent": 67.83734206674481,
+      "iqr_pp": 15.052301240989472
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 54.77798616819045,
+      "median_percent": 62.50707220613193,
+      "q3_percent": 69.49485563241463,
+      "iqr_pp": 14.716869464224175
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 57.81272508482158,
+      "median_percent": 65.51346891784262,
+      "q3_percent": 73.58347265212663,
+      "iqr_pp": 15.770747567305051
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 61.574775794903125,
+      "median_percent": 68.4468479135482,
+      "q3_percent": 74.46722210517714,
+      "iqr_pp": 12.892446310274018
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 63.37424234290052,
+      "median_percent": 69.34210016288705,
+      "q3_percent": 77.47434234548767,
+      "iqr_pp": 14.100100002587148
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 62.75958438509295,
+      "median_percent": 71.30705349053315,
+      "q3_percent": 77.61594111493217,
+      "iqr_pp": 14.85635672983922
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "n": 225,
+      "excluded_images": 0,
+      "q1_percent": 67.91279507516134,
+      "median_percent": 72.96694134038056,
+      "q3_percent": 77.11120760574705,
+      "iqr_pp": 9.198412530585713
+    }
+  ]
+}

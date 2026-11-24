@@ -1,0 +1,21 @@
+test_bootstrap_requires_original_class_coverage (test_statistics_eligibility.EligibilityChecks.test_bootstrap_requires_original_class_coverage) ... ok
+test_derive_end_to_end_with_partial_and_entirely_empty_images (test_statistics_eligibility.EligibilityChecks.test_derive_end_to_end_with_partial_and_entirely_empty_images) ... ok
+test_empty_reference_with_and_without_false_positives (test_statistics_eligibility.EligibilityChecks.test_empty_reference_with_and_without_false_positives) ... ok
+test_holm_family_isolation (test_statistics_eligibility.EligibilityChecks.test_holm_family_isolation) ... ok
+test_image_and_class_balanced_estimands_differ_with_missing_classes (test_statistics_eligibility.EligibilityChecks.test_image_and_class_balanced_estimands_differ_with_missing_classes) ... ok
+test_pairing_eligibility_and_all_zero_difference (test_statistics_eligibility.EligibilityChecks.test_pairing_eligibility_and_all_zero_difference) ... ok
+test_invalid_duplicate_or_absent_measurements (test_timing_records.TimingChecks.test_invalid_duplicate_or_absent_measurements) ... ok
+test_weighted_throughput_and_run_intervals (test_timing_records.TimingChecks.test_weighted_throughput_and_run_intervals) ... ok
+test_changed_identity_and_reference_are_detected (test_unified_records.UnifiedRecordChecks.test_changed_identity_and_reference_are_detected) ... ok
+test_counts_round_to_locked_primary_metrics (test_unified_records.UnifiedRecordChecks.test_counts_round_to_locked_primary_metrics) ... ok
+test_lossless_decode_and_recomputed_metrics (test_unified_records.UnifiedRecordChecks.test_lossless_decode_and_recomputed_metrics) ... ok
+test_changed_prediction_is_rejected (test_mask_record_verification.MaskRecordVerification.test_changed_prediction_is_rejected) ... ok
+test_duplicate_identifier_is_rejected (test_mask_record_verification.MaskRecordVerification.test_duplicate_identifier_is_rejected) ... ok
+test_empty_reference_with_and_without_false_positive (test_mask_record_verification.MaskRecordVerification.test_empty_reference_with_and_without_false_positive) ... ok
+test_path_must_stay_in_record_directory (test_mask_record_verification.MaskRecordVerification.test_path_must_stay_in_record_directory) ... ok
+test_positive_recomputation (test_mask_record_verification.MaskRecordVerification.test_positive_recomputation) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.914s
+
+OK

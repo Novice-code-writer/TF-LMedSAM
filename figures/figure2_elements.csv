@@ -1,0 +1,69 @@
+﻿object_id,object_type,text,style,x,y,width,height,waypoints
+visual,vertex,,rounded=1;arcSize=4;whiteSpace=wrap;html=0;fillColor=#DFEBFA;strokeColor=#A1AFB7;strokeWidth=2;connectable=0;,20,20,600,1380,[]
+visual-title,vertex,A  Visual stream,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#233441;fontStyle=1;align=left;verticalAlign=middle;spacing=0;connectable=0;,45,35,550,40,[]
+textual,vertex,,rounded=1;arcSize=4;whiteSpace=wrap;html=0;fillColor=#E2EFDC;strokeColor=#A1AFB7;strokeWidth=2;connectable=0;,650,20,1030,460,[]
+textual-title,vertex,B  Textual stream,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#233441;fontStyle=1;align=left;verticalAlign=middle;spacing=0;connectable=0;,675,35,800,40,[]
+fusion,vertex,,rounded=1;arcSize=4;whiteSpace=wrap;html=0;fillColor=#E9E0F0;strokeColor=#A1AFB7;strokeWidth=2;connectable=0;,650,510,1030,890,[]
+fusion-title,vertex,C  Fusion and decoding stream,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#233441;fontStyle=1;align=left;verticalAlign=middle;spacing=0;connectable=0;,675,525,800,40,[]
+fundus,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,140,110,420,160,[]
+fundus-title,vertex,Fundus image input,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,152,122,396,36,[]
+fundus-asset,vertex,,shape=image;imageAspect=1;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=embedded PNG,160,168,84,84,[]
+fundus-body,vertex,"RGB input
+1024 × 1024 pixels",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,256,166,290,95,[]
+adapted,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#CADCF3;strokeColor=#233441;strokeWidth=2;,140,340,420,300,[]
+adapted-title,vertex,Adapted MedSAM ViT-B,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,152,352,396,36,[]
+adapted-body,vertex,"Frozen pretrained encoder · 12 layers
+Trainable adapter in every FFN
+Down-projection · GELU · up-projection
+Bottleneck width: 64
+Depth groups: 1–3 / 4–6 / 7–9 / 10–12
+Feature taps: layers 3, 6, 9 and 12",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,155,398,390,230,[]
+alignment,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,140,770,420,200,[]
+alignment-title,vertex,Depth-feature alignment,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,152,782,396,36,[]
+alignment-body,vertex,"1 × 1 projection to 256 channels
+Pooling factors: 1 / 2 / 4 / 8
+Resize to the native grid · mean fusion",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,155,828,390,130,[]
+fundus-to-encoder,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""350"", ""y"": ""270"", ""as"": ""sourcePoint""}, {""x"": ""350"", ""y"": ""340"", ""as"": ""targetPoint""}]"
+encoder-to-alignment,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""350"", ""y"": ""640"", ""as"": ""sourcePoint""}, {""x"": ""350"", ""y"": ""770"", ""as"": ""targetPoint""}]"
+depth-label,vertex,Four depth features,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=left;verticalAlign=middle;spacing=0;connectable=0;,365,690,220,35,[]
+aligned-label,vertex,Aligned visual features,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,160,985,380,35,[]
+training-note,vertex,"Pretrained image weights: frozen
+Adapters and added modules: trainable",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,160,1040,400,65,[]
+descriptions,vertex,,rounded=1;arcSize=7;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,760,100,780,100,[]
+descriptions-title,vertex,Fixed clinical lesion descriptions,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,110,750,32,[]
+descriptions-body,vertex,MA · HE · EX · SE,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,152,750,30,[]
+text-encoder,vertex,,rounded=1;arcSize=7;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,760,250,780,95,[]
+text-encoder-title,vertex,Frozen PubMedCLIP text encoder,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,260,750,32,[]
+text-encoder-body,vertex,ViT-B/32 text tower · 512-dimensional outputs,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,302,750,30,[]
+embeddings,vertex,,rounded=1;arcSize=7;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,760,395,780,60,[]
+embeddings-label,vertex,Token states + validity mask   |   Global EOS embeddings,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,405,750,40,[]
+descriptions-to-text-encoder,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1150"", ""y"": ""200"", ""as"": ""sourcePoint""}, {""x"": ""1150"", ""y"": ""250"", ""as"": ""targetPoint""}]"
+text-encoder-to-embeddings,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1150"", ""y"": ""345"", ""as"": ""sourcePoint""}, {""x"": ""1150"", ""y"": ""395"", ""as"": ""targetPoint""}]"
+tpfm,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFF0CA;strokeColor=#233441;strokeWidth=2;,760,710,730,190,[]
+tpfm-title,vertex,Text Prompt Fusion Module (TPFM),text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,772,722,706,36,[]
+tpfm-body,vertex,"Visual queries · text token keys and values
+256 dimensions · 8 attention heads
+Padding mask · visual residual addition",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,768,700,120,[]
+visual-to-tpfm,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""560"", ""y"": ""870"", ""as"": ""sourcePoint""}, {""x"": ""760"", ""y"": ""805"", ""as"": ""targetPoint""}, {""x"": ""690"", ""y"": ""870""}, {""x"": ""690"", ""y"": ""805""}]"
+tokens-to-tpfm,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1010"", ""y"": ""455"", ""as"": ""sourcePoint""}, {""x"": ""1060"", ""y"": ""710"", ""as"": ""targetPoint""}, {""x"": ""1010"", ""y"": ""495""}, {""x"": ""635"", ""y"": ""495""}, {""x"": ""635"", ""y"": ""670""}, {""x"": ""1060"", ""y"": ""670""}]"
+tokens-label,vertex,"Projected text tokens
+256 dimensions",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,825,590,340,60,[]
+decoder,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#F7DCC8;strokeColor=#233441;strokeWidth=2;,760,980,730,140,[]
+decoder-title,vertex,Prompt-guided lightweight decoder,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,772,992,706,36,[]
+decoder-body,vertex,"2 bidirectional interaction layers
+256 dimensions · 8 heads · coarse lesion logits",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,1038,700,70,[]
+fusion-to-decoder,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1125"", ""y"": ""900"", ""as"": ""sourcePoint""}, {""x"": ""1125"", ""y"": ""980"", ""as"": ""targetPoint""}]"
+fusion-label,vertex,Fused features,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,1190,925,235,30,[]
+global-to-decoder,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1450"", ""y"": ""455"", ""as"": ""sourcePoint""}, {""x"": ""1490"", ""y"": ""1050"", ""as"": ""targetPoint""}, {""x"": ""1620"", ""y"": ""455""}, {""x"": ""1620"", ""y"": ""1050""}]"
+global-label,vertex,"Global text
+prompt queries",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,1495,605,120,60,[]
+output,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,760,1190,730,165,[]
+output-title,vertex,Mask refinement and output,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,772,1202,706,36,[]
+output-body,vertex,"Upsample + projected first-layer features · 1 × 1 convolution
+Resize to 1024 × 1024 · sigmoid · threshold 0.5
+Four independent masks: MA / HE / EX / SE",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,775,1248,700,95,[]
+decoder-to-output,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1125"", ""y"": ""1120"", ""as"": ""sourcePoint""}, {""x"": ""1125"", ""y"": ""1190"", ""as"": ""targetPoint""}]"
+refinement-skip,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""140"", ""y"": ""565"", ""as"": ""sourcePoint""}, {""x"": ""760"", ""y"": ""1270"", ""as"": ""targetPoint""}, {""x"": ""75"", ""y"": ""565""}, {""x"": ""75"", ""y"": ""1270""}]"
+skip-label,vertex,"First-layer features
+Channel projection · refinement skip",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,170,1175,405,65,[]
+abbreviations,vertex,MA: microaneurysms · HE: hemorrhages · EX: hard exudates · SE: soft exudates,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=16;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,740,1360,850,30,[]

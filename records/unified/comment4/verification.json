@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "modified_paragraphs": 5,
+  "red_font_checked": true,
+  "same_document_updated": true,
+  "measured_gpu_logs_created": false,
+  "fps_values_changed": false,
+  "reference_records_rejected": true,
+  "rendered_pages": 22,
+  "related_timing_checks_passed": 2,
+  "equations_preserved": 55,
+  "final_document_sha256": "74714c5259dd4136205a348ea47fb664e7f7241b5d24d813d1b2caa9540ccbad",
+  "limitation": "Reference FPS values retain their source status; no new model benchmark was executed.",
+  "benchmark_preflight": "Trained implementations/checkpoints for all four Figure 9 methods unavailable; user authorized reference examples instead.",
+  "reference_example_verification": "reference_timing/verification.json",
+  "strict_weight_loading_fix": "Implemented; neural execution requires PyTorch and original checkpoints."
+}

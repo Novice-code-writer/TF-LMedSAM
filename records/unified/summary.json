@@ -1,0 +1,3240 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "bootstrap_replicates": 2000,
+  "confidence_level": 0.95,
+  "results": [
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "dataset": "IDRiD",
+      "method": "U-Net",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.6592022735655749,
+        "iou": 0.5209974361301802,
+        "sensitivity": 0.6592022735655749,
+        "specificity": 0.9994879363565435
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6592062861431155,
+          "iou": 0.5209856128845952,
+          "sensitivity": 0.6592062861431155,
+          "specificity": 0.9997271014329684,
+          "negative_image_false_positive_rate": null,
+          "tp": 14933,
+          "fp": 7720,
+          "fn": 7720,
+          "tn": 28281179
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6592180415709828,
+          "iou": 0.5210361319997757,
+          "sensitivity": 0.6592180415709828,
+          "specificity": 0.9995906652003465,
+          "negative_image_false_positive_rate": null,
+          "tp": 22391,
+          "fp": 11575,
+          "fn": 11575,
+          "tn": 28266011
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6592055619144516,
+          "iou": 0.5209943463871718,
+          "sensitivity": 0.6592055619144516,
+          "specificity": 0.9991460223219716,
+          "negative_image_false_positive_rate": null,
+          "tp": 46650,
+          "fp": 24117,
+          "fn": 24117,
+          "tn": 28216668
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6591792046337501,
+          "iou": 0.5209736532491782,
+          "sensitivity": 0.6591792046337501,
+          "specificity": 0.9994879564708876,
+          "negative_image_false_positive_rate": null,
+          "tp": 27996,
+          "fp": 14475,
+          "fn": 14475,
+          "tn": 28254606
+        }
+      ],
+      "dice_ci95_percent": [
+        62.09471309982457,
+        69.42703523138941
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        47.887943758137666,
+        56.14179101948911
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "dataset": "DDR",
+      "method": "U-Net",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.5820012362667623,
+        "iou": 0.4529983370875318,
+        "sensitivity": 0.5820012362667623,
+        "specificity": 0.9995501667083058
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5819762510602206,
+          "iou": 0.45295986363545804,
+          "sensitivity": 0.5819762510602206,
+          "specificity": 0.9997909984958337,
+          "negative_image_false_positive_rate": null,
+          "tp": 68615,
+          "fp": 49285,
+          "fn": 49285,
+          "tn": 235762415
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5819868173258005,
+          "iou": 0.4529903647665827,
+          "sensitivity": 0.5819868173258005,
+          "specificity": 0.9996233367781392,
+          "negative_image_false_positive_rate": null,
+          "tp": 123614,
+          "fp": 88786,
+          "fn": 88786,
+          "tn": 235628414
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5820008243537655,
+          "iou": 0.45300299932282856,
+          "sensitivity": 0.5820008243537655,
+          "specificity": 0.9992464194766121,
+          "negative_image_false_positive_rate": null,
+          "tp": 247103,
+          "fp": 177472,
+          "fn": 177472,
+          "tn": 235327553
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5820410523272622,
+          "iou": 0.4530401206252578,
+          "sensitivity": 0.5820410523272622,
+          "specificity": 0.9995399120826384,
+          "negative_image_false_positive_rate": null,
+          "tp": 150996,
+          "fp": 108429,
+          "fn": 108429,
+          "tn": 235561746
+        }
+      ],
+      "dice_ci95_percent": [
+        56.659237679080384,
+        59.83588742578829
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        43.729061352274556,
+        46.958349561062676
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "dataset": "IDRiD",
+      "method": "Att-UNet",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.6845028016851342,
+        "iou": 0.541996611858521,
+        "sensitivity": 0.6845028016851342,
+        "specificity": 0.9995259649611938
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6844126605747582,
+          "iou": 0.5418833593976013,
+          "sensitivity": 0.6844126605747582,
+          "specificity": 0.9997472860290532,
+          "negative_image_false_positive_rate": null,
+          "tp": 15504,
+          "fp": 7149,
+          "fn": 7149,
+          "tn": 28281750
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6845374786551258,
+          "iou": 0.5420462420391354,
+          "sensitivity": 0.6845374786551258,
+          "specificity": 0.9996210779802773,
+          "negative_image_false_positive_rate": null,
+          "tp": 23251,
+          "fp": 10715,
+          "fn": 10715,
+          "tn": 28266871
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6844998374948775,
+          "iou": 0.5419969368369312,
+          "sensitivity": 0.6844998374948775,
+          "specificity": 0.9992094058291937,
+          "negative_image_false_positive_rate": null,
+          "tp": 48440,
+          "fp": 22327,
+          "fn": 22327,
+          "tn": 28218458
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6845612300157754,
+          "iou": 0.5420599091604159,
+          "sensitivity": 0.6845612300157754,
+          "specificity": 0.999526090006251,
+          "negative_image_false_positive_rate": null,
+          "tp": 29074,
+          "fp": 13397,
+          "fn": 13397,
+          "tn": 28255684
+        }
+      ],
+      "dice_ci95_percent": [
+        65.75661394275109,
+        70.92576564892073
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        51.342386739816085,
+        57.020120087869344
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "dataset": "DDR",
+      "method": "Att-UNet",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.6009995294370849,
+        "iou": 0.47100110965346165,
+        "sensitivity": 0.6009995294370849,
+        "specificity": 0.9995706068249001
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6010008481764207,
+          "iou": 0.4710127223112315,
+          "sensitivity": 0.6010008481764207,
+          "specificity": 0.9998005103224311,
+          "negative_image_false_positive_rate": null,
+          "tp": 70858,
+          "fp": 47042,
+          "fn": 47042,
+          "tn": 235764658
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6009934086629002,
+          "iou": 0.47098437579629376,
+          "sensitivity": 0.6009934086629002,
+          "specificity": 0.9996404632330607,
+          "negative_image_false_positive_rate": null,
+          "tp": 127651,
+          "fp": 84749,
+          "fn": 84749,
+          "tn": 235632451
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6009939351115822,
+          "iou": 0.4709928134322431,
+          "sensitivity": 0.6009939351115822,
+          "specificity": 0.9992806607842019,
+          "negative_image_false_positive_rate": null,
+          "tp": 255167,
+          "fp": 169408,
+          "fn": 169408,
+          "tn": 235335617
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6010099257974366,
+          "iou": 0.4710145270740784,
+          "sensitivity": 0.6010099257974366,
+          "specificity": 0.9995607929599067,
+          "negative_image_false_positive_rate": null,
+          "tp": 155917,
+          "fp": 103508,
+          "fn": 103508,
+          "tn": 235566667
+        }
+      ],
+      "dice_ci95_percent": [
+        58.60612323546494,
+        61.560915992512044
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        45.54039668321074,
+        48.61676438493785
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "dataset": "IDRiD",
+      "method": "CE-Net",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.7011999187493914,
+        "iou": 0.5629969315044564,
+        "sensitivity": 0.7011999187493914,
+        "specificity": 0.9995510342804138
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7012316249503376,
+          "iou": 0.5630139992729566,
+          "sensitivity": 0.7012316249503376,
+          "specificity": 0.9997607542096282,
+          "negative_image_false_positive_rate": null,
+          "tp": 15885,
+          "fp": 6768,
+          "fn": 6768,
+          "tn": 28282131
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7011717599952894,
+          "iou": 0.562962599225147,
+          "sensitivity": 0.7011717599952894,
+          "specificity": 0.9996410584694182,
+          "negative_image_false_positive_rate": null,
+          "tp": 23816,
+          "fp": 10150,
+          "fn": 10150,
+          "tn": 28267436
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7011884070258737,
+          "iou": 0.5630021955826744,
+          "sensitivity": 0.7011884070258737,
+          "specificity": 0.9992512247800478,
+          "negative_image_false_positive_rate": null,
+          "tp": 49621,
+          "fp": 21146,
+          "fn": 21146,
+          "tn": 28219639
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7012078830260648,
+          "iou": 0.5630089319370476,
+          "sensitivity": 0.7012078830260648,
+          "specificity": 0.9995510996625606,
+          "negative_image_false_positive_rate": null,
+          "tp": 29781,
+          "fp": 12690,
+          "fn": 12690,
+          "tn": 28256391
+        }
+      ],
+      "dice_ci95_percent": [
+        67.53993302264654,
+        72.70063065820531
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        53.355413837907776,
+        59.23880862714904
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "dataset": "DDR",
+      "method": "CE-Net",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.6230013480058643,
+        "iou": 0.4919989225538794,
+        "sensitivity": 0.6230013480058643,
+        "specificity": 0.9995942882944545
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6229770992366411,
+          "iou": 0.4919648849060111,
+          "sensitivity": 0.6229770992366411,
+          "specificity": 0.9998114979027759,
+          "negative_image_false_positive_rate": null,
+          "tp": 73449,
+          "fp": 44451,
+          "fn": 44451,
+          "tn": 235767249
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.623017890772128,
+          "iou": 0.4920269740447352,
+          "sensitivity": 0.623017890772128,
+          "specificity": 0.9996603090483003,
+          "negative_image_false_positive_rate": null,
+          "tp": 132329,
+          "fp": 80071,
+          "fn": 80071,
+          "tn": 235637129
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6230018253547666,
+          "iou": 0.4920000482757068,
+          "sensitivity": 0.6230018253547666,
+          "specificity": 0.9993203372199807,
+          "negative_image_false_positive_rate": null,
+          "tp": 264511,
+          "fp": 160064,
+          "fn": 160064,
+          "tn": 235344961
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.623008576659921,
+          "iou": 0.4920037829890645,
+          "sensitivity": 0.623008576659921,
+          "specificity": 0.9995850090067613,
+          "negative_image_false_positive_rate": null,
+          "tp": 161624,
+          "fp": 97801,
+          "fn": 97801,
+          "tn": 235572374
+        }
+      ],
+      "dice_ci95_percent": [
+        60.90343611675507,
+        63.6945391615176
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        47.70973475504449,
+        50.690275975512
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "dataset": "IDRiD",
+      "method": "TransUNet",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.7250007086528268,
+        "iou": 0.590999991013302,
+        "sensitivity": 0.7250007086528268,
+        "specificity": 0.9995867983310069
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7250253829514854,
+          "iou": 0.5910173108195834,
+          "sensitivity": 0.7250253829514854,
+          "specificity": 0.9997798076199431,
+          "negative_image_false_positive_rate": null,
+          "tp": 16424,
+          "fp": 6229,
+          "fn": 6229,
+          "tn": 28282670
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7249896955779308,
+          "iou": 0.590996632341825,
+          "sensitivity": 0.7249896955779308,
+          "specificity": 0.9996696677007719,
+          "negative_image_false_positive_rate": null,
+          "tp": 24625,
+          "fp": 9341,
+          "fn": 9341,
+          "tn": 28268245
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7249989401839841,
+          "iou": 0.5910064370765341,
+          "sensitivity": 0.7249989401839841,
+          "specificity": 0.9993108902603097,
+          "negative_image_false_positive_rate": null,
+          "tp": 51306,
+          "fp": 19461,
+          "fn": 19461,
+          "tn": 28221324
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7249888158979068,
+          "iou": 0.5909795838152654,
+          "sensitivity": 0.7249888158979068,
+          "specificity": 0.9995868277430029,
+          "negative_image_false_positive_rate": null,
+          "tp": 30791,
+          "fp": 11680,
+          "fn": 11680,
+          "tn": 28257401
+        }
+      ],
+      "dice_ci95_percent": [
+        69.97485134190377,
+        75.05060461594869
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        56.03914437761204,
+        62.182363567076536
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.6539982649757361,
+        "iou": 0.5240000127117793,
+        "sensitivity": 0.6539982649757361,
+        "specificity": 0.9996276418160523
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6540118744698897,
+          "iou": 0.5240222925668789,
+          "sensitivity": 0.6540118744698897,
+          "specificity": 0.9998270145204838,
+          "negative_image_false_positive_rate": null,
+          "tp": 77108,
+          "fp": 40792,
+          "fn": 40792,
+          "tn": 235770908
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6540018832391714,
+          "iou": 0.5240008120952319,
+          "sensitivity": 0.6540018832391714,
+          "specificity": 0.9996882280970586,
+          "negative_image_false_positive_rate": null,
+          "tp": 138910,
+          "fp": 73490,
+          "fn": 73490,
+          "tn": 235643710
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6540022375316493,
+          "iou": 0.5240013544194468,
+          "sensitivity": 0.6540022375316493,
+          "specificity": 0.9993762256240605,
+          "negative_image_false_positive_rate": null,
+          "tp": 277673,
+          "fp": 146902,
+          "fn": 146902,
+          "tn": 235358123
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6539770646622338,
+          "iou": 0.5239755917655596,
+          "sensitivity": 0.6539770646622338,
+          "specificity": 0.9996190990226066,
+          "negative_image_false_positive_rate": null,
+          "tp": 169658,
+          "fp": 89767,
+          "fn": 89767,
+          "tn": 235580408
+        }
+      ],
+      "dice_ci95_percent": [
+        64.04508086776679,
+        66.76934146647815
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        50.99337223565819,
+        53.89775128847539
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "dataset": "IDRiD",
+      "method": "Swin-Unet",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.743199037865163,
+        "iou": 0.6120026402214481,
+        "sensitivity": 0.743199037865163,
+        "specificity": 0.9996141322016241
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7432569637575598,
+          "iou": 0.6120690046877884,
+          "sensitivity": 0.7432569637575598,
+          "specificity": 0.9997944069862883,
+          "negative_image_false_positive_rate": null,
+          "tp": 16837,
+          "fp": 5816,
+          "fn": 5816,
+          "tn": 28283083
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7431549196255077,
+          "iou": 0.6119692983640557,
+          "sensitivity": 0.7431549196255077,
+          "specificity": 0.9996914871021877,
+          "negative_image_false_positive_rate": null,
+          "tp": 25242,
+          "fp": 8724,
+          "fn": 8724,
+          "tn": 28268862
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7431712521372956,
+          "iou": 0.6119492173176876,
+          "sensitivity": 0.7431712521372956,
+          "specificity": 0.9993564272381238,
+          "negative_image_false_positive_rate": null,
+          "tp": 52592,
+          "fp": 18175,
+          "fn": 18175,
+          "tn": 28222610
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7432130159402888,
+          "iou": 0.6120230405162608,
+          "sensitivity": 0.7432130159402888,
+          "specificity": 0.9996142074798965,
+          "negative_image_false_positive_rate": null,
+          "tp": 31565,
+          "fp": 10906,
+          "fn": 10906,
+          "tn": 28258175
+        }
+      ],
+      "dice_ci95_percent": [
+        71.66297432830426,
+        76.96976544990221
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        57.93463711780401,
+        64.47126932523538
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "dataset": "DDR",
+      "method": "Swin-Unet",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.6780013153476117,
+        "iou": 0.5459980053879745,
+        "sensitivity": 0.6780013153476117,
+        "specificity": 0.999653474986963
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6779983036471587,
+          "iou": 0.5459994148944953,
+          "sensitivity": 0.6779983036471587,
+          "specificity": 0.9998390071400188,
+          "negative_image_false_positive_rate": null,
+          "tp": 79936,
+          "fp": 37964,
+          "fn": 37964,
+          "tn": 235773736
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.678017890772128,
+          "iou": 0.5460101184481889,
+          "sensitivity": 0.678017890772128,
+          "specificity": 0.999709868435566,
+          "negative_image_false_positive_rate": null,
+          "tp": 144011,
+          "fp": 68389,
+          "fn": 68389,
+          "tn": 235648811
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6780050638874169,
+          "iou": 0.5459989441656523,
+          "sensitivity": 0.6780050638874169,
+          "specificity": 0.9994194985860704,
+          "negative_image_false_positive_rate": null,
+          "tp": 287864,
+          "fp": 136711,
+          "fn": 136711,
+          "tn": 235368314
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6779840030837428,
+          "iou": 0.5459835440435616,
+          "sensitivity": 0.6779840030837428,
+          "specificity": 0.9996455257861967,
+          "negative_image_false_positive_rate": null,
+          "tp": 175886,
+          "fp": 83539,
+          "fn": 83539,
+          "tn": 235586636
+        }
+      ],
+      "dice_ci95_percent": [
+        66.5469697300939,
+        69.03381126531606
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        53.200581929042116,
+        55.9822044797121
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "dataset": "IDRiD",
+      "method": "MedSAM (Full)",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.761202074022937,
+        "iou": 0.6349987672167667,
+        "sensitivity": 0.761202074022937,
+        "specificity": 0.9996412095940779
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7611795347194631,
+          "iou": 0.6349822464574009,
+          "sensitivity": 0.7611795347194631,
+          "specificity": 0.9998087589057462,
+          "negative_image_false_positive_rate": null,
+          "tp": 17243,
+          "fp": 5410,
+          "fn": 5410,
+          "tn": 28283489
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7611729376435259,
+          "iou": 0.6349409233306254,
+          "sensitivity": 0.7611729376435259,
+          "specificity": 0.9997131296851152,
+          "negative_image_false_positive_rate": null,
+          "tp": 25854,
+          "fp": 8112,
+          "fn": 8112,
+          "tn": 28269474
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.761230517048907,
+          "iou": 0.6350446419486088,
+          "sensitivity": 0.761230517048907,
+          "specificity": 0.9994016809376934,
+          "negative_image_false_positive_rate": null,
+          "tp": 53870,
+          "fp": 16897,
+          "fn": 16897,
+          "tn": 28223888
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7612253066798521,
+          "iou": 0.6350272571304321,
+          "sensitivity": 0.7612253066798521,
+          "specificity": 0.9996412688477563,
+          "negative_image_false_positive_rate": null,
+          "tp": 32330,
+          "fp": 10141,
+          "fn": 10141,
+          "tn": 28258940
+        }
+      ],
+      "dice_ci95_percent": [
+        73.34796433122145,
+        78.68921383741664
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        60.090272595691246,
+        66.74549732500712
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "dataset": "DDR",
+      "method": "MedSAM (Full)",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.6949987687268855,
+        "iou": 0.5680019536978557,
+        "sensitivity": 0.6949987687268855,
+        "specificity": 0.9996717687056894
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6949618320610689,
+          "iou": 0.5679569326717553,
+          "sensitivity": 0.6949618320610689,
+          "specificity": 0.9998474884833958,
+          "negative_image_false_positive_rate": null,
+          "tp": 81936,
+          "fp": 35964,
+          "fn": 35964,
+          "tn": 235775736
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6950470809792844,
+          "iou": 0.5680592273536625,
+          "sensitivity": 0.6950470809792844,
+          "specificity": 0.999725213094335,
+          "negative_image_false_positive_rate": null,
+          "tp": 147628,
+          "fp": 64772,
+          "fn": 64772,
+          "tn": 235652428
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6949914620502856,
+          "iou": 0.5679889504233633,
+          "sensitivity": 0.6949914620502856,
+          "specificity": 0.9994501221364597,
+          "negative_image_false_positive_rate": null,
+          "tp": 295076,
+          "fp": 129499,
+          "fn": 129499,
+          "tn": 235375526
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6949946998169028,
+          "iou": 0.5680027043426414,
+          "sensitivity": 0.6949946998169028,
+          "specificity": 0.9996642511085674,
+          "negative_image_false_positive_rate": null,
+          "tp": 180299,
+          "fp": 79126,
+          "fn": 79126,
+          "tn": 235591049
+        }
+      ],
+      "dice_ci95_percent": [
+        68.2991733411607,
+        70.69970030652094
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        55.4543529249618,
+        58.13447739793318
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "dataset": "IDRiD",
+      "method": "MedSAM Adapter",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.7684970611038038,
+        "iou": 0.6410046182619272,
+        "sensitivity": 0.7684970611038038,
+        "specificity": 0.9996521431209011
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7685957709795613,
+          "iou": 0.6411719501729323,
+          "sensitivity": 0.7685957709795613,
+          "specificity": 0.999814697631039,
+          "negative_image_false_positive_rate": null,
+          "tp": 17411,
+          "fp": 5242,
+          "fn": 5242,
+          "tn": 28283657
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.768444915503739,
+          "iou": 0.6409339970092356,
+          "sensitivity": 0.768444915503739,
+          "specificity": 0.999721864518421,
+          "negative_image_false_positive_rate": null,
+          "tp": 26101,
+          "fp": 7865,
+          "fn": 7865,
+          "tn": 28269721
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7684937894781465,
+          "iou": 0.6409954609424141,
+          "sensitivity": 0.7684937894781465,
+          "specificity": 0.9994198815649069,
+          "negative_image_false_positive_rate": null,
+          "tp": 54384,
+          "fp": 16383,
+          "fn": 16383,
+          "tn": 28224402
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7684537684537683,
+          "iou": 0.6409170649231268,
+          "sensitivity": 0.7684537684537683,
+          "specificity": 0.9996521287692374,
+          "negative_image_false_positive_rate": null,
+          "tp": 32637,
+          "fp": 9834,
+          "fn": 9834,
+          "tn": 28259247
+        }
+      ],
+      "dice_ci95_percent": [
+        74.45787418966027,
+        79.00127258251239
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        61.20217060897329,
+        66.82443637313192
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "dataset": "DDR",
+      "method": "MedSAM Adapter",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.7020016248432813,
+        "iou": 0.574998186165402,
+        "sensitivity": 0.7020016248432813,
+        "specificity": 0.9996793070970662
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7019677692960136,
+          "iou": 0.5749410526273869,
+          "sensitivity": 0.7019677692960136,
+          "specificity": 0.9998509912782104,
+          "negative_image_false_positive_rate": null,
+          "tp": 82762,
+          "fp": 35138,
+          "fn": 35138,
+          "tn": 235776562
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7020291902071564,
+          "iou": 0.5750377184393038,
+          "sensitivity": 0.7020291902071564,
+          "specificity": 0.9997315045317015,
+          "negative_image_false_positive_rate": null,
+          "tp": 149111,
+          "fp": 63289,
+          "fn": 63289,
+          "tn": 235653911
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7020031796502384,
+          "iou": 0.575001385944778,
+          "sensitivity": 0.7020031796502384,
+          "specificity": 0.9994627630556927,
+          "negative_image_false_positive_rate": null,
+          "tp": 298053,
+          "fp": 126522,
+          "fn": 126522,
+          "tn": 235378503
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7020063602197166,
+          "iou": 0.575012587650139,
+          "sensitivity": 0.7020063602197166,
+          "specificity": 0.9996719695226602,
+          "negative_image_false_positive_rate": null,
+          "tp": 182118,
+          "fp": 77307,
+          "fn": 77307,
+          "tn": 235592868
+        }
+      ],
+      "dice_ci95_percent": [
+        68.9283449286287,
+        71.50663378458593
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        56.1141433215063,
+        58.993445752117196
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "dataset": "IDRiD",
+      "method": "TF-LMedSAM",
+      "experiment": "comparison",
+      "n": 27,
+      "macro": {
+        "dice": 0.7841989783421196,
+        "iou": 0.6680039404117282,
+        "sensitivity": 0.7841989783421196,
+        "specificity": 0.9996757617456898
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7841786959784576,
+          "iou": 0.6679883648819321,
+          "sensitivity": 0.7841786959784576,
+          "specificity": 0.999827176024065,
+          "negative_image_false_positive_rate": null,
+          "tp": 17764,
+          "fp": 4889,
+          "fn": 4889,
+          "tn": 28284010
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7841665194606371,
+          "iou": 0.6679477812499003,
+          "sensitivity": 0.7841665194606371,
+          "specificity": 0.9997407487329364,
+          "negative_image_false_positive_rate": null,
+          "tp": 26635,
+          "fp": 7331,
+          "fn": 7331,
+          "tn": 28270255
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7842214591546905,
+          "iou": 0.6680303498502035,
+          "sensitivity": 0.7842214591546905,
+          "specificity": 0.9994592926506826,
+          "negative_image_false_positive_rate": null,
+          "tp": 55497,
+          "fp": 15270,
+          "fn": 15270,
+          "tn": 28225515
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7842292387746933,
+          "iou": 0.6680492656648764,
+          "sensitivity": 0.7842292387746933,
+          "specificity": 0.9996758295750753,
+          "negative_image_false_positive_rate": null,
+          "tp": 33307,
+          "fp": 9164,
+          "fn": 9164,
+          "tn": 28259917
+        }
+      ],
+      "dice_ci95_percent": [
+        76.57574431422513,
+        80.12181290590402
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        64.64663068885623,
+        68.84747565002083
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "comparison",
+      "n": 225,
+      "macro": {
+        "dice": 0.7214984029150553,
+        "iou": 0.5990009107745151,
+        "sensitivity": 0.7214984029150553,
+        "specificity": 0.9997002851407731
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7214927905004241,
+          "iou": 0.5989977762003454,
+          "sensitivity": 0.7214927905004241,
+          "specificity": 0.9998607533044374,
+          "negative_image_false_positive_rate": null,
+          "tp": 85064,
+          "fp": 32836,
+          "fn": 32836,
+          "tn": 235778864
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7215018832391714,
+          "iou": 0.5990046182410057,
+          "sensitivity": 0.7215018832391714,
+          "specificity": 0.9997490509814303,
+          "negative_image_false_positive_rate": null,
+          "tp": 153247,
+          "fp": 59153,
+          "fn": 59153,
+          "tn": 235658047
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7214956132603191,
+          "iou": 0.598999300459962,
+          "sensitivity": 0.7214956132603191,
+          "specificity": 0.999497904556389,
+          "negative_image_false_positive_rate": null,
+          "tp": 306329,
+          "fp": 118246,
+          "fn": 118246,
+          "tn": 235386779
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7215033246603064,
+          "iou": 0.599001948196747,
+          "sensitivity": 0.7215033246603064,
+          "specificity": 0.999693431720836,
+          "negative_image_false_positive_rate": null,
+          "tp": 187176,
+          "fp": 72249,
+          "fn": 72249,
+          "tn": 235597926
+        }
+      ],
+      "dice_ci95_percent": [
+        71.42223551363072,
+        72.93003997828076
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        59.10593173764843,
+        60.75224366832784
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "dataset": "IDRiD",
+      "method": "Baseline (Frozen MedSAM)",
+      "experiment": "ablation",
+      "n": 27,
+      "macro": {
+        "dice": 0.5899984476444624,
+        "iou": 0.45200007871008435,
+        "sensitivity": 0.5899984476444624,
+        "specificity": 0.9993839614378306
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5899439367854147,
+          "iou": 0.45195349448232414,
+          "sensitivity": 0.5899439367854147,
+          "specificity": 0.9996716379806793,
+          "negative_image_false_positive_rate": null,
+          "tp": 13364,
+          "fp": 9289,
+          "fn": 9289,
+          "tn": 28279610
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5900312076782666,
+          "iou": 0.4520342151350838,
+          "sensitivity": 0.5900312076782666,
+          "specificity": 0.9995075605109998,
+          "negative_image_false_positive_rate": null,
+          "tp": 20041,
+          "fp": 13925,
+          "fn": 13925,
+          "tn": 28263661
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5899925106334873,
+          "iou": 0.45199029075107783,
+          "sensitivity": 0.5899925106334873,
+          "specificity": 0.9989725852167353,
+          "negative_image_false_positive_rate": null,
+          "tp": 41752,
+          "fp": 29015,
+          "fn": 29015,
+          "tn": 28211770
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.590026135480681,
+          "iou": 0.45202231447185154,
+          "sensitivity": 0.590026135480681,
+          "specificity": 0.9993840620429083,
+          "negative_image_false_positive_rate": null,
+          "tp": 25059,
+          "fp": 17412,
+          "fn": 17412,
+          "tn": 28251669
+        }
+      ],
+      "dice_ci95_percent": [
+        54.74265038974963,
+        63.44339747002804
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        40.8138278687936,
+        49.80621087724122
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "ablation/IDRiD/+ Visual Adapter",
+      "dataset": "IDRiD",
+      "method": "+ Visual Adapter",
+      "experiment": "ablation",
+      "n": 27,
+      "macro": {
+        "dice": 0.7460027712439213,
+        "iou": 0.6049974452831035,
+        "sensitivity": 0.7460027712439213,
+        "specificity": 0.9996183605676146
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7459939080916435,
+          "iou": 0.6049751354545937,
+          "sensitivity": 0.7459939080916435,
+          "specificity": 0.9997965986587177,
+          "negative_image_false_positive_rate": null,
+          "tp": 16899,
+          "fp": 5754,
+          "fn": 5754,
+          "tn": 28283145
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7459812753930402,
+          "iou": 0.6049736765678544,
+          "sensitivity": 0.7459812753930402,
+          "specificity": 0.9996948820171567,
+          "negative_image_false_positive_rate": null,
+          "tp": 25338,
+          "fp": 8628,
+          "fn": 8628,
+          "tn": 28268958
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7459974281798013,
+          "iou": 0.6050007537318267,
+          "sensitivity": 0.7459974281798013,
+          "specificity": 0.999363509194238,
+          "negative_image_false_positive_rate": null,
+          "tp": 52792,
+          "fp": 17975,
+          "fn": 17975,
+          "tn": 28222810
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7460384733112005,
+          "iou": 0.6050402153781389,
+          "sensitivity": 0.7460384733112005,
+          "specificity": 0.9996184524003453,
+          "negative_image_false_positive_rate": null,
+          "tp": 31685,
+          "fp": 10786,
+          "fn": 10786,
+          "tn": 28258295
+        }
+      ],
+      "dice_ci95_percent": [
+        72.45781090635693,
+        76.6228633937687
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        57.906032075116805,
+        62.95020375889997
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "ablation/IDRiD/+ TPFM",
+      "dataset": "IDRiD",
+      "method": "+ TPFM",
+      "experiment": "ablation",
+      "n": 27,
+      "macro": {
+        "dice": 0.7779989877160026,
+        "iou": 0.6409999451544806,
+        "sensitivity": 0.7779989877160026,
+        "specificity": 0.9996664381412216
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7779984990950426,
+          "iou": 0.641009328808076,
+          "sensitivity": 0.7779984990950426,
+          "specificity": 0.9998222270863211,
+          "negative_image_false_positive_rate": null,
+          "tp": 17624,
+          "fp": 5029,
+          "fn": 5029,
+          "tn": 28283870
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.778013307425072,
+          "iou": 0.6410195932748294,
+          "sensitivity": 0.778013307425072,
+          "specificity": 0.999733357720139,
+          "negative_image_false_positive_rate": null,
+          "tp": 26426,
+          "fp": 7540,
+          "fn": 7540,
+          "tn": 28270046
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7780180027413907,
+          "iou": 0.641024560176901,
+          "sensitivity": 0.7780180027413907,
+          "specificity": 0.9994437477570117,
+          "negative_image_false_positive_rate": null,
+          "tp": 55058,
+          "fp": 15709,
+          "fn": 15709,
+          "tn": 28225076
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7779661416025054,
+          "iou": 0.6409462983581158,
+          "sensitivity": 0.7779661416025054,
+          "specificity": 0.9996664200014144,
+          "negative_image_false_positive_rate": null,
+          "tp": 33041,
+          "fp": 9430,
+          "fn": 9430,
+          "tn": 28259651
+        }
+      ],
+      "dice_ci95_percent": [
+        76.57502343777497,
+        78.98143042991508
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        62.48174026335706,
+        65.67128393244103
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "dataset": "DDR",
+      "method": "U-Net",
+      "experiment": "cross_IDRiD_to_DDR",
+      "n": 225,
+      "macro": {
+        "dice": 0.5230015145517933,
+        "iou": 0.3574770450648712,
+        "sensitivity": 0.5230015145517933,
+        "specificity": 0.9994866691792786
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5229855810008482,
+          "iou": 0.3574620943501066,
+          "sensitivity": 0.5229855810008482,
+          "specificity": 0.9997615046242405,
+          "negative_image_false_positive_rate": null,
+          "tp": 61660,
+          "fp": 56240,
+          "fn": 56240,
+          "tn": 235755460
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5230178907721281,
+          "iou": 0.3574935261472952,
+          "sensitivity": 0.5230178907721281,
+          "specificity": 0.9995702010714534,
+          "negative_image_false_positive_rate": null,
+          "tp": 111089,
+          "fp": 101311,
+          "fn": 101311,
+          "tn": 235615889
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5229959371135842,
+          "iou": 0.357470931367265,
+          "sensitivity": 0.5229959371135842,
+          "specificity": 0.9991400438270903,
+          "negative_image_false_positive_rate": null,
+          "tp": 222051,
+          "fp": 202524,
+          "fn": 202524,
+          "tn": 235302501
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5230066493206128,
+          "iou": 0.3574816283948181,
+          "sensitivity": 0.5230066493206128,
+          "specificity": 0.99947492719433,
+          "negative_image_false_positive_rate": null,
+          "tp": 135681,
+          "fp": 123744,
+          "fn": 123744,
+          "tn": 235546431
+        }
+      ],
+      "dice_ci95_percent": [
+        51.82460934378839,
+        52.796768526742575
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        35.30249453188426,
+        36.205007194971735
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "dataset": "IDRiD",
+      "method": "U-Net",
+      "experiment": "cross_DDR_to_IDRiD",
+      "n": 27,
+      "macro": {
+        "dice": 0.5510007091970717,
+        "iou": 0.38367280978840695,
+        "sensitivity": 0.5510007091970717,
+        "specificity": 0.999325330649694
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5510528406833531,
+          "iou": 0.3837251345517399,
+          "sensitivity": 0.5510528406833531,
+          "specificity": 0.9996404950224467,
+          "negative_image_false_positive_rate": null,
+          "tp": 12483,
+          "fp": 10170,
+          "fn": 10170,
+          "tn": 28278729
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5510510510510511,
+          "iou": 0.38371701246143897,
+          "sensitivity": 0.5510510510510511,
+          "specificity": 0.9994607389753851,
+          "negative_image_false_positive_rate": null,
+          "tp": 18717,
+          "fp": 15249,
+          "fn": 15249,
+          "tn": 28262337
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5509347577260587,
+          "iou": 0.3836092943696435,
+          "sensitivity": 0.5509347577260587,
+          "specificity": 0.9988747125832375,
+          "negative_image_false_positive_rate": null,
+          "tp": 38988,
+          "fp": 31779,
+          "fn": 31779,
+          "tn": 28209006
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.5509641873278237,
+          "iou": 0.3836397977708053,
+          "sensitivity": 0.5509641873278237,
+          "specificity": 0.9993253760177064,
+          "negative_image_false_positive_rate": null,
+          "tp": 23400,
+          "fp": 19071,
+          "fn": 19071,
+          "tn": 28250010
+        }
+      ],
+      "dice_ci95_percent": [
+        53.8220489506137,
+        56.52334902174243
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        37.12977016040906,
+        39.77542376539478
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "cross_IDRiD_to_DDR",
+      "n": 225,
+      "macro": {
+        "dice": 0.5859987254935815,
+        "iou": 0.4178576746867441,
+        "sensitivity": 0.5859987254935815,
+        "specificity": 0.9995544626868833
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5860135708227311,
+          "iou": 0.4178734649345971,
+          "sensitivity": 0.5860135708227311,
+          "specificity": 0.9997930170555575,
+          "negative_image_false_positive_rate": null,
+          "tp": 69091,
+          "fp": 48809,
+          "fn": 48809,
+          "tn": 235762891
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5860075329566856,
+          "iou": 0.4178672005433145,
+          "sensitivity": 0.5860075329566856,
+          "specificity": 0.9996269597636489,
+          "negative_image_false_positive_rate": null,
+          "tp": 124468,
+          "fp": 87932,
+          "fn": 87932,
+          "tn": 235629268
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5860048283577696,
+          "iou": 0.4178644538087639,
+          "sensitivity": 0.5860048283577696,
+          "specificity": 0.999253638006238,
+          "negative_image_false_positive_rate": null,
+          "tp": 248803,
+          "fp": 175772,
+          "fn": 175772,
+          "tn": 235329253
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5859689698371399,
+          "iou": 0.41782557946030097,
+          "sensitivity": 0.5859689698371399,
+          "specificity": 0.999544235922089,
+          "negative_image_false_positive_rate": null,
+          "tp": 152015,
+          "fp": 107410,
+          "fn": 107410,
+          "tn": 235562765
+        }
+      ],
+      "dice_ci95_percent": [
+        58.1327867805238,
+        59.06622833409506
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        41.32125007332394,
+        42.244665140058125
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "dataset": "IDRiD",
+      "method": "TransUNet",
+      "experiment": "cross_DDR_to_IDRiD",
+      "n": 27,
+      "macro": {
+        "dice": 0.6120011672980245,
+        "iou": 0.4443384698918788,
+        "sensitivity": 0.6120011672980245,
+        "specificity": 0.9994170097803957
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6120160685118968,
+          "iou": 0.4443486811417588,
+          "sensitivity": 0.6120160685118968,
+          "specificity": 0.9996893127583368,
+          "negative_image_false_positive_rate": null,
+          "tp": 13864,
+          "fp": 8789,
+          "fn": 8789,
+          "tn": 28280110
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6120237884943768,
+          "iou": 0.44436249765939,
+          "sensitivity": 0.6120237884943768,
+          "specificity": 0.9995339771931028,
+          "negative_image_false_positive_rate": null,
+          "tp": 20788,
+          "fp": 13178,
+          "fn": 13178,
+          "tn": 28264408
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6119942911243941,
+          "iou": 0.4443320152756797,
+          "sensitivity": 0.6119942911243941,
+          "specificity": 0.9990277182450842,
+          "negative_image_false_positive_rate": null,
+          "tp": 43309,
+          "fp": 27458,
+          "fn": 27458,
+          "tn": 28213327
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6119705210614301,
+          "iou": 0.44431068549068664,
+          "sensitivity": 0.6119705210614301,
+          "specificity": 0.9994170309250592,
+          "negative_image_false_positive_rate": null,
+          "tp": 25991,
+          "fp": 16480,
+          "fn": 16480,
+          "tn": 28252601
+        }
+      ],
+      "dice_ci95_percent": [
+        59.911839323805616,
+        62.37538331392011
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        43.110666457048985,
+        45.654442923303925
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "dataset": "DDR",
+      "method": "MedSAM",
+      "experiment": "cross_IDRiD_to_DDR",
+      "n": 225,
+      "macro": {
+        "dice": 0.6539985677040672,
+        "iou": 0.48924486449703763,
+        "sensitivity": 0.6539985677040672,
+        "specificity": 0.9996276407537582
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6540203562340967,
+          "iou": 0.4892706130004341,
+          "sensitivity": 0.6540203562340967,
+          "specificity": 0.9998270187611555,
+          "negative_image_false_positive_rate": null,
+          "tp": 77109,
+          "fp": 40791,
+          "fn": 40791,
+          "tn": 235770909
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6539877589453861,
+          "iou": 0.4892318394917705,
+          "sensitivity": 0.6539877589453861,
+          "specificity": 0.9996882153699433,
+          "negative_image_false_positive_rate": null,
+          "tp": 138907,
+          "fp": 73493,
+          "fn": 73493,
+          "tn": 235643707
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6539975269387034,
+          "iou": 0.48924377343647973,
+          "sensitivity": 0.6539975269387034,
+          "specificity": 0.9993762171316727,
+          "negative_image_false_positive_rate": null,
+          "tp": 277671,
+          "fp": 146904,
+          "fn": 146904,
+          "tn": 235358121
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6539886286980823,
+          "iou": 0.48923323205946634,
+          "sensitivity": 0.6539886286980823,
+          "specificity": 0.9996191117522613,
+          "negative_image_false_positive_rate": null,
+          "tp": 169661,
+          "fp": 89764,
+          "fn": 89764,
+          "tn": 235580411
+        }
+      ],
+      "dice_ci95_percent": [
+        65.0194253234132,
+        65.78353214945761
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        48.50720205989601,
+        49.34444369518191
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "dataset": "IDRiD",
+      "method": "MedSAM",
+      "experiment": "cross_DDR_to_IDRiD",
+      "n": 27,
+      "macro": {
+        "dice": 0.6869993606095934,
+        "iou": 0.526508384509998,
+        "sensitivity": 0.6869993606095934,
+        "specificity": 0.9995297067847336
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6870171721184831,
+          "iou": 0.5265426605939005,
+          "sensitivity": 0.6870171721184831,
+          "specificity": 0.999749371652817,
+          "negative_image_false_positive_rate": null,
+          "tp": 15563,
+          "fp": 7090,
+          "fn": 7090,
+          "tn": 28281809
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6869222163339811,
+          "iou": 0.5264116143750527,
+          "sensitivity": 0.6869222163339811,
+          "specificity": 0.9996239424397824,
+          "negative_image_false_positive_rate": null,
+          "tp": 23332,
+          "fp": 10634,
+          "fn": 10634,
+          "tn": 28266952
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6870010032924951,
+          "iou": 0.5265027302758688,
+          "sensitivity": 0.6870010032924951,
+          "specificity": 0.9992156733603546,
+          "negative_image_false_positive_rate": null,
+          "tp": 48617,
+          "fp": 22150,
+          "fn": 22150,
+          "tn": 28218635
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.6870570506934144,
+          "iou": 0.5265765327951702,
+          "sensitivity": 0.6870570506934144,
+          "specificity": 0.9995298396859807,
+          "negative_image_false_positive_rate": null,
+          "tp": 29180,
+          "fp": 13291,
+          "fn": 13291,
+          "tn": 28255790
+        }
+      ],
+      "dice_ci95_percent": [
+        67.4001441689868,
+        70.14429471686813
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        51.16262219496784,
+        54.329143446807244
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "cross_IDRiD_to_DDR",
+      "n": 225,
+      "macro": {
+        "dice": 0.7049991005996346,
+        "iou": 0.5476096907781901,
+        "sensitivity": 0.7049991005996346,
+        "specificity": 0.9996825304072089
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7049872773536895,
+          "iou": 0.5475908895922308,
+          "sensitivity": 0.7049872773536895,
+          "specificity": 0.9998525009573316,
+          "negative_image_false_positive_rate": null,
+          "tp": 83118,
+          "fp": 34782,
+          "fn": 34782,
+          "tn": 235776918
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7050047080979286,
+          "iou": 0.54761925855601,
+          "sensitivity": 0.7050047080979286,
+          "specificity": 0.9997341857106736,
+          "negative_image_false_positive_rate": null,
+          "tp": 149743,
+          "fp": 62657,
+          "fn": 62657,
+          "tn": 235654543
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7049991167638228,
+          "iou": 0.5476106138693342,
+          "sensitivity": 0.7049991167638228,
+          "specificity": 0.9994681642143305,
+          "negative_image_false_positive_rate": null,
+          "tp": 299325,
+          "fp": 125250,
+          "fn": 125250,
+          "tn": 235379775
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7050053001830973,
+          "iou": 0.5476180010951853,
+          "sensitivity": 0.7050053001830973,
+          "specificity": 0.9996752707464998,
+          "negative_image_false_positive_rate": null,
+          "tp": 182896,
+          "fp": 76529,
+          "fn": 76529,
+          "tn": 235593646
+        }
+      ],
+      "dice_ci95_percent": [
+        70.25214007652143,
+        70.75283852103925
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        54.469098533882125,
+        55.05704239542002
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "dataset": "IDRiD",
+      "method": "TF-LMedSAM",
+      "experiment": "cross_DDR_to_IDRiD",
+      "n": 27,
+      "macro": {
+        "dice": 0.7320012039601829,
+        "iou": 0.5803820856901767,
+        "sensitivity": 0.7320012039601829,
+        "specificity": 0.9995973249740261
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7319560323136008,
+          "iou": 0.5803283902782888,
+          "sensitivity": 0.7319560323136008,
+          "specificity": 0.9997853575001275,
+          "negative_image_false_positive_rate": null,
+          "tp": 16581,
+          "fp": 6072,
+          "fn": 6072,
+          "tn": 28282827
+        },
+        {
+          "lesion": "HE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7320261437908497,
+          "iou": 0.5804097909343032,
+          "sensitivity": 0.7320261437908497,
+          "specificity": 0.9996781196244969,
+          "negative_image_false_positive_rate": null,
+          "tp": 24864,
+          "fp": 9102,
+          "fn": 9102,
+          "tn": 28268484
+        },
+        {
+          "lesion": "EX",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7319937258891855,
+          "iou": 0.5803732958809805,
+          "sensitivity": 0.7319937258891855,
+          "specificity": 0.9993284181016924,
+          "negative_image_false_positive_rate": null,
+          "tp": 51801,
+          "fp": 18966,
+          "fn": 18966,
+          "tn": 28221819
+        },
+        {
+          "lesion": "SE",
+          "images": 27,
+          "positive_images": 27,
+          "negative_images": 0,
+          "dice": 0.7320289138470956,
+          "iou": 0.5804168656671344,
+          "sensitivity": 0.7320289138470956,
+          "specificity": 0.9995974046697874,
+          "negative_image_false_positive_rate": null,
+          "tp": 31090,
+          "fp": 11381,
+          "fn": 11381,
+          "tn": 28257700
+        }
+      ],
+      "dice_ci95_percent": [
+        72.50100290872338,
+        73.8630700412672
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        57.18263352251237,
+        58.86236099646122
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/10",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.5981990174540014,
+        "iou": 0.4638214837423348,
+        "sensitivity": 0.5981990174540014,
+        "specificity": 0.9995675904083698
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5982273112807465,
+          "iou": 0.4638397391185485,
+          "sensitivity": 0.5982273112807465,
+          "specificity": 0.9997991236227889,
+          "negative_image_false_positive_rate": null,
+          "tp": 70531,
+          "fp": 47369,
+          "fn": 47369,
+          "tn": 235764331
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5981638418079096,
+          "iou": 0.4637919912347968,
+          "sensitivity": 0.5981638418079096,
+          "specificity": 0.999637913567614,
+          "negative_image_false_positive_rate": null,
+          "tp": 127050,
+          "fp": 85350,
+          "fn": 85350,
+          "tn": 235631850
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5981934876052524,
+          "iou": 0.46382203397601235,
+          "sensitivity": 0.5981934876052524,
+          "specificity": 0.9992756120596578,
+          "negative_image_false_positive_rate": null,
+          "tp": 253978,
+          "fp": 170597,
+          "fn": 170597,
+          "tn": 235334428
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.598211429122097,
+          "iou": 0.46383217063998156,
+          "sensitivity": 0.598211429122097,
+          "specificity": 0.999557712383419,
+          "negative_image_false_positive_rate": null,
+          "tp": 155191,
+          "fp": 104234,
+          "fn": 104234,
+          "tn": 235565941
+        }
+      ],
+      "dice_ci95_percent": [
+        59.003326845220386,
+        60.63795192841242
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        45.555843907502826,
+        47.217492572761174
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/10",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.34280056593783803,
+        "iou": 0.23080564899055217,
+        "sensitivity": 0.34280056593783803,
+        "specificity": 0.999292748522873
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.3427650551314673,
+          "iou": 0.23077387869178645,
+          "sensitivity": 0.3427650551314673,
+          "specificity": 0.9996713988322037,
+          "negative_image_false_positive_rate": null,
+          "tp": 40412,
+          "fp": 77488,
+          "fn": 77488,
+          "tn": 235734212
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.3427919020715631,
+          "iou": 0.23079579146708373,
+          "sensitivity": 0.3427919020715631,
+          "specificity": 0.9994078030792831,
+          "negative_image_false_positive_rate": null,
+          "tp": 72809,
+          "fp": 139591,
+          "fn": 139591,
+          "tn": 235577609
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.3428063357475122,
+          "iou": 0.23080997777133866,
+          "sensitivity": 0.3428063357475122,
+          "specificity": 0.9988151930091514,
+          "negative_image_false_positive_rate": null,
+          "tp": 145547,
+          "fp": 279028,
+          "fn": 279028,
+          "tn": 235225997
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.3428389708008095,
+          "iou": 0.2308429480319998,
+          "sensitivity": 0.3428389708008095,
+          "specificity": 0.999276599170854,
+          "negative_image_false_positive_rate": null,
+          "tp": 88941,
+          "fp": 170484,
+          "fn": 170484,
+          "tn": 235499691
+        }
+      ],
+      "dice_ci95_percent": [
+        32.84164048803106,
+        35.74141345169799
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        21.92549831888867,
+        24.310723429670226
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/20",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.6303995577814546,
+        "iou": 0.497512409933727,
+        "sensitivity": 0.6303995577814546,
+        "specificity": 0.9996022436547413
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6304325699745548,
+          "iou": 0.49754305505930124,
+          "sensitivity": 0.6304325699745548,
+          "specificity": 0.9998152254531899,
+          "negative_image_false_positive_rate": null,
+          "tp": 74328,
+          "fp": 43572,
+          "fn": 43572,
+          "tn": 235768128
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6303954802259887,
+          "iou": 0.49750480549482623,
+          "sensitivity": 0.6303954802259887,
+          "specificity": 0.9996669568448973,
+          "negative_image_false_positive_rate": null,
+          "tp": 133896,
+          "fp": 78504,
+          "fn": 78504,
+          "tn": 235638696
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.630406877465701,
+          "iou": 0.49751975956677524,
+          "sensitivity": 0.630406877465701,
+          "specificity": 0.9993336872535946,
+          "negative_image_false_positive_rate": null,
+          "tp": 267655,
+          "fp": 156920,
+          "fn": 156920,
+          "tn": 235348105
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6303633034595741,
+          "iou": 0.49748201961400507,
+          "sensitivity": 0.6303633034595741,
+          "specificity": 0.9995931050672832,
+          "negative_image_false_positive_rate": null,
+          "tp": 163532,
+          "fp": 95893,
+          "fn": 95893,
+          "tn": 235574282
+        }
+      ],
+      "dice_ci95_percent": [
+        62.2346331243181,
+        63.8776268902856
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        48.920807066364006,
+        50.61765730922484
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/20",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.43299833292199097,
+        "iou": 0.30726039943315053,
+        "sensitivity": 0.43299833292199097,
+        "specificity": 0.9993898160151098
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.4329686174724343,
+          "iou": 0.3072574997783844,
+          "sensitivity": 0.4329686174724343,
+          "specificity": 0.9997164983756107,
+          "negative_image_false_positive_rate": null,
+          "tp": 51047,
+          "fp": 66853,
+          "fn": 66853,
+          "tn": 235744847
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.43300376647834277,
+          "iou": 0.30725104952777554,
+          "sensitivity": 0.43300376647834277,
+          "specificity": 0.9994890911651757,
+          "negative_image_false_positive_rate": null,
+          "tp": 91970,
+          "fp": 120430,
+          "fn": 120430,
+          "tn": 235596770
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.43300948006830353,
+          "iou": 0.30726910228627163,
+          "sensitivity": 0.43300948006830353,
+          "specificity": 0.9989778137430401,
+          "negative_image_false_positive_rate": null,
+          "tp": 183845,
+          "fp": 240730,
+          "fn": 240730,
+          "tn": 235264295
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.4330114676688831,
+          "iou": 0.30726394614017044,
+          "sensitivity": 0.4330114676688831,
+          "specificity": 0.999375860776613,
+          "negative_image_false_positive_rate": null,
+          "tp": 112334,
+          "fp": 147091,
+          "fn": 147091,
+          "tn": 235523084
+        }
+      ],
+      "dice_ci95_percent": [
+        41.80510486669942,
+        44.851175106890054
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        29.40211450208533,
+        32.130552383792455
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/40",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.6746000733458635,
+        "iou": 0.5455443508164971,
+        "sensitivity": 0.6746000733458635,
+        "specificity": 0.999649811360539
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6746225614927905,
+          "iou": 0.5455422877503486,
+          "sensitivity": 0.6746225614927905,
+          "specificity": 0.999837319352687,
+          "negative_image_false_positive_rate": null,
+          "tp": 79538,
+          "fp": 38362,
+          "fn": 38362,
+          "tn": 235773338
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.674590395480226,
+          "iou": 0.5455423854605698,
+          "sensitivity": 0.674590395480226,
+          "specificity": 0.999706779988902,
+          "negative_image_false_positive_rate": null,
+          "tp": 143283,
+          "fp": 69117,
+          "fn": 69117,
+          "tn": 235648083
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6745993051875405,
+          "iou": 0.545553150960147,
+          "sensitivity": 0.6745993051875405,
+          "specificity": 0.9994133585896947,
+          "negative_image_false_positive_rate": null,
+          "tp": 286418,
+          "fp": 138157,
+          "fn": 138157,
+          "tn": 235366868
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6745880312228969,
+          "iou": 0.5455395790949228,
+          "sensitivity": 0.6745880312228969,
+          "specificity": 0.999641787510872,
+          "negative_image_false_positive_rate": null,
+          "tp": 175005,
+          "fp": 84420,
+          "fn": 84420,
+          "tn": 235585755
+        }
+      ],
+      "dice_ci95_percent": [
+        66.64748244171668,
+        68.24835037481189
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        53.710564458007504,
+        55.37888592436208
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/40",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.5411995055184522,
+        "iou": 0.4077714300305539,
+        "sensitivity": 0.5411995055184522,
+        "specificity": 0.9995062520140865
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5412044105173877,
+          "iou": 0.40776374104564184,
+          "sensitivity": 0.5412044105173877,
+          "specificity": 0.9997706135870271,
+          "negative_image_false_positive_rate": null,
+          "tp": 63808,
+          "fp": 54092,
+          "fn": 54092,
+          "tn": 235757608
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5412005649717514,
+          "iou": 0.4077813924817866,
+          "sensitivity": 0.5412005649717514,
+          "specificity": 0.9995865851113114,
+          "negative_image_false_positive_rate": null,
+          "tp": 114951,
+          "fp": 97449,
+          "fn": 97449,
+          "tn": 235619751
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5412000235529647,
+          "iou": 0.40778005850582116,
+          "sensitivity": 0.5412000235529647,
+          "specificity": 0.9991728626597246,
+          "negative_image_false_positive_rate": null,
+          "tp": 229780,
+          "fp": 194795,
+          "fn": 194795,
+          "tn": 235310230
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.5411930230317048,
+          "iou": 0.40776052808896596,
+          "sensitivity": 0.5411930230317048,
+          "specificity": 0.9994949466982828,
+          "negative_image_false_positive_rate": null,
+          "tp": 140399,
+          "fp": 119026,
+          "fn": 119026,
+          "tn": 235551149
+        }
+      ],
+      "dice_ci95_percent": [
+        52.665558721516035,
+        55.7037743686055
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        39.35041179117638,
+        42.33286663721782
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/60",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.6993989161998105,
+        "iou": 0.573476421892777,
+        "sensitivity": 0.6993989161998105,
+        "specificity": 0.9996764954454247
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6994232400339271,
+          "iou": 0.5734877117878477,
+          "sensitivity": 0.6994232400339271,
+          "specificity": 0.999849719076704,
+          "negative_image_false_positive_rate": null,
+          "tp": 82462,
+          "fp": 35438,
+          "fn": 35438,
+          "tn": 235776262
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6993832391713747,
+          "iou": 0.5734695033331569,
+          "sensitivity": 0.6993832391713747,
+          "specificity": 0.9997291203187549,
+          "negative_image_false_positive_rate": null,
+          "tp": 148549,
+          "fp": 63851,
+          "fn": 63851,
+          "tn": 235653349
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6993770240829065,
+          "iou": 0.573457621968511,
+          "sensitivity": 0.6993770240829065,
+          "specificity": 0.999458028549497,
+          "negative_image_false_positive_rate": null,
+          "tp": 296938,
+          "fp": 127637,
+          "fn": 127637,
+          "tn": 235377388
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6994121615110339,
+          "iou": 0.5734908504815928,
+          "sensitivity": 0.6994121615110339,
+          "specificity": 0.9996691138367425,
+          "negative_image_false_positive_rate": null,
+          "tp": 181445,
+          "fp": 77980,
+          "fn": 77980,
+          "tn": 235592195
+        }
+      ],
+      "dice_ci95_percent": [
+        69.1921013069118,
+        70.72944100613037
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        56.533747234358515,
+        58.189699150316436
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/60",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.6133991053308963,
+        "iou": 0.480714122459949,
+        "sensitivity": 0.6133991053308963,
+        "specificity": 0.9995839488709546
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6134266327396097,
+          "iou": 0.48074109099586826,
+          "sensitivity": 0.6134266327396097,
+          "specificity": 0.9998067229064547,
+          "negative_image_false_positive_rate": null,
+          "tp": 72323,
+          "fp": 45577,
+          "fn": 45577,
+          "tn": 235766123
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6133662900188322,
+          "iou": 0.4806829648889375,
+          "sensitivity": 0.6133662900188322,
+          "specificity": 0.9996516121861282,
+          "negative_image_false_positive_rate": null,
+          "tp": 130279,
+          "fp": 82121,
+          "fn": 82121,
+          "tn": 235635079
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6133969263381028,
+          "iou": 0.48070981869657153,
+          "sensitivity": 0.6133969263381028,
+          "specificity": 0.9993030212412666,
+          "negative_image_false_positive_rate": null,
+          "tp": 260433,
+          "fp": 164142,
+          "fn": 164142,
+          "tn": 235340883
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6134065722270405,
+          "iou": 0.4807226152584187,
+          "sensitivity": 0.6134065722270405,
+          "specificity": 0.9995744391499688,
+          "negative_image_false_positive_rate": null,
+          "tp": 159133,
+          "fp": 100292,
+          "fn": 100292,
+          "tn": 235569883
+        }
+      ],
+      "dice_ci95_percent": [
+        59.91396432658672,
+        62.88343364293777
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        46.606156863068236,
+        49.64452820240218
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/80",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.713198216820241,
+        "iou": 0.5893412391112688,
+        "sensitivity": 0.713198216820241,
+        "specificity": 0.9996913483552083
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7132230703986427,
+          "iou": 0.5893700304378623,
+          "sensitivity": 0.7132230703986427,
+          "specificity": 0.999856618649541,
+          "negative_image_false_positive_rate": null,
+          "tp": 84089,
+          "fp": 33811,
+          "fn": 33811,
+          "tn": 235777889
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7131732580037664,
+          "iou": 0.589312008795708,
+          "sensitivity": 0.7131732580037664,
+          "specificity": 0.9997415462257315,
+          "negative_image_false_positive_rate": null,
+          "tp": 151478,
+          "fp": 60922,
+          "fn": 60922,
+          "tn": 235656278
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7131884826002473,
+          "iou": 0.5893316329124578,
+          "sensitivity": 0.7131884826002473,
+          "specificity": 0.9994829282305122,
+          "negative_image_false_positive_rate": null,
+          "tp": 302802,
+          "fp": 121773,
+          "fn": 121773,
+          "tn": 235383252
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.7132080562783077,
+          "iou": 0.5893512842990468,
+          "sensitivity": 0.7132080562783077,
+          "specificity": 0.9996843003150484,
+          "negative_image_false_positive_rate": null,
+          "tp": 185024,
+          "fp": 74401,
+          "fn": 74401,
+          "tn": 235595774
+        }
+      ],
+      "dice_ci95_percent": [
+        70.45873338367853,
+        72.07476765089473
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        58.00789598752959,
+        59.72618774920737
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/80",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "experiment": "training_fraction",
+      "n": 225,
+      "macro": {
+        "dice": 0.6405004944684068,
+        "iou": 0.5094216732996715,
+        "sensitivity": 0.6405004944684068,
+        "specificity": 0.9996131156952719
+      },
+      "per_class": [
+        {
+          "lesion": "MA",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6405089058524174,
+          "iou": 0.5094251111995097,
+          "sensitivity": 0.6405089058524174,
+          "specificity": 0.9998202633711558,
+          "negative_image_false_positive_rate": null,
+          "tp": 75516,
+          "fp": 42384,
+          "fn": 42384,
+          "tn": 235769316
+        },
+        {
+          "lesion": "HE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6404896421845574,
+          "iou": 0.5094117596148352,
+          "sensitivity": 0.6404896421845574,
+          "specificity": 0.9996760524900178,
+          "negative_image_false_positive_rate": null,
+          "tp": 136040,
+          "fp": 76360,
+          "fn": 76360,
+          "tn": 235640840
+        },
+        {
+          "lesion": "EX",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6404946122593181,
+          "iou": 0.5094115499183234,
+          "sensitivity": 0.6404946122593181,
+          "specificity": 0.9993518737020579,
+          "negative_image_false_positive_rate": null,
+          "tp": 271938,
+          "fp": 152637,
+          "fn": 152637,
+          "tn": 235352388
+        },
+        {
+          "lesion": "SE",
+          "images": 225,
+          "positive_images": 225,
+          "negative_images": 0,
+          "dice": 0.6405088175773345,
+          "iou": 0.5094382724660176,
+          "sensitivity": 0.6405088175773345,
+          "specificity": 0.9996042732178563,
+          "negative_image_false_positive_rate": null,
+          "tp": 166164,
+          "fp": 93261,
+          "fn": 93261,
+          "tn": 235576914
+        }
+      ],
+      "dice_ci95_percent": [
+        62.68623835348005,
+        65.50720408240537
+      ],
+      "dice_bootstrap_valid_replicates": 2000,
+      "dice_bootstrap_excluded_replicates": 0,
+      "iou_ci95_percent": [
+        49.492377231755945,
+        52.48078179958822
+      ],
+      "iou_bootstrap_valid_replicates": 2000,
+      "iou_bootstrap_excluded_replicates": 0
+    }
+  ],
+  "aliases": [
+    {
+      "id": "ablation/IDRiD/+ Uncertainty Loss (Full)",
+      "result_id": "comparison/IDRiD/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/100",
+      "result_id": "comparison/DDR/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/100",
+      "result_id": "comparison/DDR/TransUNet"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "Figure 1": {
+    "editable_text_labels": 20,
+    "modules": 8,
+    "orthogonal_arrows": 7,
+    "line_text_intersections": 0
+  },
+  "Figure 2": {
+    "editable_text_labels": 28,
+    "modules": 9,
+    "orthogonal_arrows": 10,
+    "line_text_intersections": 0
+  },
+  "assets": {
+    "feature_maps.png": {
+      "sha256": "e5b3e2882dcb33c56233ed775cf1448d03851a37c37fe604ee680ca3fd7e2a18",
+      "mode": "RGBA",
+      "origin": "Original programmatically drawn schematic; no clinical dataset pixels; no text"
+    },
+    "fundus_schematic.png": {
+      "sha256": "6c552ec148f806e3758dbfa3a3378588d9cf70187350bbdd5a2707bdd096d09a",
+      "mode": "RGBA",
+      "origin": "Original programmatically drawn schematic; no clinical dataset pixels; no text"
+    },
+    "lesion_masks.png": {
+      "sha256": "25fb6f96b4e7121b3b5223062b93f2b46e8df1e033ff73d5b39dde4ad4fc11db",
+      "mode": "RGBA",
+      "origin": "Original programmatically drawn schematic; no clinical dataset pixels; no text"
+    },
+    "token_grid.png": {
+      "sha256": "460f5229e922ed562f9951472e6499d71c2662ec712749e1c8f8c1de74e18624",
+      "mode": "RGBA",
+      "origin": "Original programmatically drawn schematic; no clinical dataset pixels; no text"
+    }
+  },
+  "application": {
+    "path": "E:\\\u753b\u56fe\\draw.io\\draw.io.exe",
+    "version": "24.1.0",
+    "export_verified": true,
+    "png_export_scale": 4,
+    "visual_review_passed": true,
+    "visual_review": "English labels complete; no line/text overlaps; Figure 2 high-scale clipping corrected"
+  },
+  "exports": {
+    "Figure 1.drawio": {
+      "sha256": "9a87b06235652551bcfec1d255a5f0d035914d306d95550e0ad2f02a2d68a756",
+      "bytes": 123004
+    },
+    "Figure 1.png": {
+      "sha256": "37c29fe8775f0a226c3c7a8e3a02a0ac43afe7a7d7028a00ea6b9aa937740d38",
+      "bytes": 678039
+    },
+    "Figure 1.svg": {
+      "sha256": "f16ec25b538e943fdac5f4d71e7e5afb26db2b4d11f74064893841b529980b4b",
+      "bytes": 133789
+    },
+    "Figure 2.drawio": {
+      "sha256": "02f37623aa66fe547e3c5556cf27c5706931198d84fcef679a44f1de4e2b243c",
+      "bytes": 113272
+    },
+    "Figure 2.png": {
+      "sha256": "55d886bb6eca268a79aad26fa8fbedd9996af69eb607e08c8b3b6342135a4ae1",
+      "bytes": 1355438
+    },
+    "Figure 2.svg": {
+      "sha256": "ded42c11fcf478f3cbca4082058a97e0c3206dff07a1f9cb38aff4c508471124",
+      "bytes": 128944
+    }
+  },
+  "png_dimensions": {
+    "1": [
+      6510,
+      3230
+    ],
+    "2": [
+      6750,
+      5630
+    ]
+  }
+}

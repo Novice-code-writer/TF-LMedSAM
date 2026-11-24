@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "method": "U-Net",
+      "reported_fps": 45.0,
+      "measurement_supplied": false,
+      "rounded_fps_matches": null,
+      "measurement": null
+    },
+    {
+      "method": "TransUNet",
+      "reported_fps": 20.0,
+      "measurement_supplied": false,
+      "rounded_fps_matches": null,
+      "measurement": null
+    },
+    {
+      "method": "MedSAM (Full)",
+      "reported_fps": 15.0,
+      "measurement_supplied": false,
+      "rounded_fps_matches": null,
+      "measurement": null
+    },
+    {
+      "method": "TF-LMedSAM",
+      "reported_fps": 28.0,
+      "measurement_supplied": false,
+      "rounded_fps_matches": null,
+      "measurement": null
+    }
+  ],
+  "all_methods_have_measurements": false,
+  "comparison_rule": "Match method, device, precision, dimensions, timing scope and software before pooling measurements."
+}

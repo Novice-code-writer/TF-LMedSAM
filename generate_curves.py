@@ -4,7 +4,7 @@ import csv, json
 import numpy as np
 
 def main():
-    out=Path(__file__).resolve().parent.parent/'数据记录/epoch_profiles'
+    out=Path(__file__).resolve().parent/'records/epoch_profiles'
     for dataset,top in [('IDRiD',.80),('DDR',.74)]:
         rng=np.random.default_rng(20261112+(dataset=='DDR'));rows=[]
         for epoch in range(1,101):

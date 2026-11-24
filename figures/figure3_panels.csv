@@ -1,0 +1,16 @@
+﻿panel_row,image_id,dataset_context,panel,source_path,material_type
+1,DEMO_IDRiD_0069,IDRiD,image_path,records/unified/data/images/IDRiD/DEMO_IDRiD_0069.png,author-created graphic or mask
+1,DEMO_IDRiD_0069,IDRiD,MA_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0069/MA.png,author-created graphic or mask
+1,DEMO_IDRiD_0069,IDRiD,HE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0069/HE.png,author-created graphic or mask
+1,DEMO_IDRiD_0069,IDRiD,EX_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0069/EX.png,author-created graphic or mask
+1,DEMO_IDRiD_0069,IDRiD,SE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0069/SE.png,author-created graphic or mask
+2,DEMO_IDRiD_0058,IDRiD,image_path,records/unified/data/images/IDRiD/DEMO_IDRiD_0058.png,author-created graphic or mask
+2,DEMO_IDRiD_0058,IDRiD,MA_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0058/MA.png,author-created graphic or mask
+2,DEMO_IDRiD_0058,IDRiD,HE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0058/HE.png,author-created graphic or mask
+2,DEMO_IDRiD_0058,IDRiD,EX_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0058/EX.png,author-created graphic or mask
+2,DEMO_IDRiD_0058,IDRiD,SE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0058/SE.png,author-created graphic or mask
+3,DEMO_IDRiD_0041,IDRiD,image_path,records/unified/data/images/IDRiD/DEMO_IDRiD_0041.png,author-created graphic or mask
+3,DEMO_IDRiD_0041,IDRiD,MA_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0041/MA.png,author-created graphic or mask
+3,DEMO_IDRiD_0041,IDRiD,HE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0041/HE.png,author-created graphic or mask
+3,DEMO_IDRiD_0041,IDRiD,EX_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0041/EX.png,author-created graphic or mask
+3,DEMO_IDRiD_0041,IDRiD,SE_path,records/unified/data/reference/IDRiD/DEMO_IDRiD_0041/SE.png,author-created graphic or mask

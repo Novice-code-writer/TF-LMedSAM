@@ -1,0 +1,86 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "figures/drawio_validation.json; build_drawio_figures.py",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": null,
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 2,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "figures/drawio_validation.json; build_drawio_figures.py",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": null,
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 3,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "材料来源与适用范围.txt; records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": null,
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 4,
+      "material_type": "statistical chart",
+      "source_evidence": "records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": "IDRiD",
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 5,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "材料来源与适用范围.txt; records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": null,
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 6,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "generate_figures.py; figures/figure6_arrays.npz",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": null,
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 7,
+      "material_type": "statistical chart",
+      "source_evidence": "records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": "DDR",
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 8,
+      "material_type": "author-created retinal artwork and masks",
+      "source_evidence": "材料来源与适用范围.txt; records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": "DDR-to-IDRiD",
+      "dataset_photo_permission_claimed": false
+    },
+    {
+      "figure": 9,
+      "material_type": "statistical chart",
+      "source_evidence": "records/unified/figure_sources.json",
+      "original_dataset_photograph_reproduced": false,
+      "evaluation_dataset_context": "IDRiD",
+      "dataset_photo_permission_claimed": false
+    }
+  ],
+  "scope": "Current figures under figures/; file paths in source_evidence are repository-root-relative.",
+  "dataset_license_sources": {
+    "IDRiD": "https://idrid.grand-challenge.org/Data/",
+    "DDR": "https://github.com/nkicsl/DDR-dataset#license"
+  },
+  "licenses": {
+    "IDRiD": "CC BY 4.0",
+    "DDR": "CC BY-NC-SA 4.0"
+  },
+  "separate_DDR_permission_obtained": false
+}

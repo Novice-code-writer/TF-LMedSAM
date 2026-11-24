@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "related_tests_run": 16,
+  "related_tests_passed": 16,
+  "mask_pairs_verified": 21420,
+  "frozen_display_checks": 56,
+  "table_interval_rows": 28,
+  "paired_comparisons_recomputed": 29,
+  "primary_workbook_cells_preserved": 89,
+  "figure4_export_rows": 162,
+  "figure7_export_rows": 12,
+  "figure9_dice_error_bars": true,
+  "prior_estimates_intervals_and_tests_unchanged": true,
+  "neural_contract_tests": "Separate dependency: PyTorch; not included in this statistics-focused test suite"
+}

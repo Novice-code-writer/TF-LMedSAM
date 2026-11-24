@@ -1,0 +1,319 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "figures": {
+    "Figure 3": {
+      "image_ids": [
+        "DEMO_IDRiD_0069",
+        "DEMO_IDRiD_0058",
+        "DEMO_IDRiD_0041"
+      ],
+      "manifest": "manifest.json",
+      "reference_fields": [
+        "MA_path",
+        "HE_path",
+        "EX_path",
+        "SE_path"
+      ]
+    },
+    "Figure 4": {
+      "records": "per_image.json",
+      "statistics": "distributions.json",
+      "result_ids": [
+        "comparison/IDRiD/U-Net",
+        "comparison/IDRiD/Att-UNet",
+        "comparison/IDRiD/TransUNet",
+        "comparison/IDRiD/Swin-Unet",
+        "comparison/IDRiD/MedSAM (Full)",
+        "comparison/IDRiD/TF-LMedSAM"
+      ],
+      "n": 27,
+      "eligible_image_ids": [
+        "DEMO_IDRiD_0004",
+        "DEMO_IDRiD_0005",
+        "DEMO_IDRiD_0008",
+        "DEMO_IDRiD_0010",
+        "DEMO_IDRiD_0012",
+        "DEMO_IDRiD_0014",
+        "DEMO_IDRiD_0016",
+        "DEMO_IDRiD_0023",
+        "DEMO_IDRiD_0030",
+        "DEMO_IDRiD_0033",
+        "DEMO_IDRiD_0037",
+        "DEMO_IDRiD_0041",
+        "DEMO_IDRiD_0044",
+        "DEMO_IDRiD_0047",
+        "DEMO_IDRiD_0053",
+        "DEMO_IDRiD_0055",
+        "DEMO_IDRiD_0058",
+        "DEMO_IDRiD_0064",
+        "DEMO_IDRiD_0065",
+        "DEMO_IDRiD_0066",
+        "DEMO_IDRiD_0068",
+        "DEMO_IDRiD_0069",
+        "DEMO_IDRiD_0071",
+        "DEMO_IDRiD_0073",
+        "DEMO_IDRiD_0074",
+        "DEMO_IDRiD_0075",
+        "DEMO_IDRiD_0077"
+      ]
+    },
+    "Figure 5": {
+      "regions": [
+        {
+          "image_id": "DEMO_IDRiD_0069",
+          "lesion": "MA",
+          "crop_xyxy": [
+            462,
+            756,
+            558,
+            852
+          ],
+          "selection": "image-score quartile rank; component size rule"
+        },
+        {
+          "image_id": "DEMO_IDRiD_0041",
+          "lesion": "HE",
+          "crop_xyxy": [
+            184,
+            322,
+            280,
+            418
+          ],
+          "selection": "image-score quartile rank; component size rule"
+        }
+      ],
+      "records": "per_image_class.json"
+    },
+    "Figure 7": {
+      "points": [
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 10,
+          "result_id": "training_fraction/DDR/TF-LMedSAM/10",
+          "dice_percent": 59.81990174540014,
+          "ci95_percent": [
+            59.003326845220386,
+            60.63795192841242
+          ]
+        },
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 20,
+          "result_id": "training_fraction/DDR/TF-LMedSAM/20",
+          "dice_percent": 63.03995577814546,
+          "ci95_percent": [
+            62.2346331243181,
+            63.8776268902856
+          ]
+        },
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 40,
+          "result_id": "training_fraction/DDR/TF-LMedSAM/40",
+          "dice_percent": 67.46000733458635,
+          "ci95_percent": [
+            66.64748244171668,
+            68.24835037481189
+          ]
+        },
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 60,
+          "result_id": "training_fraction/DDR/TF-LMedSAM/60",
+          "dice_percent": 69.93989161998105,
+          "ci95_percent": [
+            69.1921013069118,
+            70.72944100613037
+          ]
+        },
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 80,
+          "result_id": "training_fraction/DDR/TF-LMedSAM/80",
+          "dice_percent": 71.3198216820241,
+          "ci95_percent": [
+            70.45873338367853,
+            72.07476765089473
+          ]
+        },
+        {
+          "method": "TF-LMedSAM",
+          "fraction": 100,
+          "result_id": "comparison/DDR/TF-LMedSAM",
+          "dice_percent": 72.14984029150553,
+          "ci95_percent": [
+            71.42223551363072,
+            72.93003997828076
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 10,
+          "result_id": "training_fraction/DDR/TransUNet/10",
+          "dice_percent": 34.280056593783804,
+          "ci95_percent": [
+            32.84164048803106,
+            35.74141345169799
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 20,
+          "result_id": "training_fraction/DDR/TransUNet/20",
+          "dice_percent": 43.2998332921991,
+          "ci95_percent": [
+            41.80510486669942,
+            44.851175106890054
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 40,
+          "result_id": "training_fraction/DDR/TransUNet/40",
+          "dice_percent": 54.11995055184522,
+          "ci95_percent": [
+            52.665558721516035,
+            55.7037743686055
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 60,
+          "result_id": "training_fraction/DDR/TransUNet/60",
+          "dice_percent": 61.33991053308962,
+          "ci95_percent": [
+            59.91396432658672,
+            62.88343364293777
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 80,
+          "result_id": "training_fraction/DDR/TransUNet/80",
+          "dice_percent": 64.05004944684069,
+          "ci95_percent": [
+            62.68623835348005,
+            65.50720408240537
+          ]
+        },
+        {
+          "method": "TransUNet",
+          "fraction": 100,
+          "result_id": "comparison/DDR/TransUNet",
+          "dice_percent": 65.39982649757361,
+          "ci95_percent": [
+            64.04508086776679,
+            66.76934146647815
+          ]
+        }
+      ],
+      "records": "summary.json",
+      "training_subsets": "splits/nested_training_subsets.json",
+      "error_bars": "95% percentile bootstrap confidence intervals"
+    },
+    "Figure 8": {
+      "image_ids": [
+        "DEMO_IDRiD_0069",
+        "DEMO_IDRiD_0041"
+      ],
+      "source_dataset": "DDR",
+      "target_dataset": "IDRiD",
+      "crop_xyxy": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "results": [
+        "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+        "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM"
+      ],
+      "selection": "nearest image-score ranks to the 25th and 75th percentiles",
+      "records": "per_image_class.json"
+    },
+    "Figure 9": {
+      "points": [
+        {
+          "method": "U-Net",
+          "dice_percent": 65.92022735655749,
+          "dice_ci95_percent": [
+            62.09471309982457,
+            69.42703523138941
+          ],
+          "fps": 45.0
+        },
+        {
+          "method": "TransUNet",
+          "dice_percent": 72.50007086528268,
+          "dice_ci95_percent": [
+            69.97485134190377,
+            75.05060461594869
+          ],
+          "fps": 20.0
+        },
+        {
+          "method": "MedSAM (Full)",
+          "dice_percent": 76.1202074022937,
+          "dice_ci95_percent": [
+            73.34796433122145,
+            78.68921383741664
+          ],
+          "fps": 15.0
+        },
+        {
+          "method": "TF-LMedSAM",
+          "dice_percent": 78.41989783421197,
+          "dice_ci95_percent": [
+            76.57574431422513,
+            80.12181290590402
+          ],
+          "fps": 28.0
+        }
+      ],
+      "dice_source": "summary.json",
+      "fps_source": "frozen_report.json",
+      "error_bars": "vertical 95% image-level bootstrap intervals for Dice",
+      "device_timing_verified": false
+    }
+  },
+  "output_files": [
+    {
+      "path": "figures/Figure 1.png",
+      "sha256": "37c29fe8775f0a226c3c7a8e3a02a0ac43afe7a7d7028a00ea6b9aa937740d38"
+    },
+    {
+      "path": "figures/Figure 2.png",
+      "sha256": "55d886bb6eca268a79aad26fa8fbedd9996af69eb607e08c8b3b6342135a4ae1"
+    },
+    {
+      "path": "figures/Figure 3.png",
+      "sha256": "3b40638113611ac8a07b27ada68f53374034554642b6bb48381dc102ebb3d2b3"
+    },
+    {
+      "path": "figures/Figure 4.png",
+      "sha256": "4aafbe73187911b6208a5dd7a10f509171c4dbc222cc9fa95943672421fd73df"
+    },
+    {
+      "path": "figures/Figure 5.png",
+      "sha256": "9ffd287f6ad3dc02344b50a8e8655871ed0a00df8dde9e5d143db7bbe992fbc4"
+    },
+    {
+      "path": "figures/Figure 6.png",
+      "sha256": "8d11fedc8197759ef6d21c22d8a51a52e4d7606d910bb4d658e00ae572aa119d"
+    },
+    {
+      "path": "figures/Figure 7.png",
+      "sha256": "b4533b700bea8cc989556fa0f220ea671dfbe55b38de80268149e197e915b6d1"
+    },
+    {
+      "path": "figures/Figure 8.png",
+      "sha256": "d6d58346518c1568d1ddf5abe62ab9166ca4c361e4cd0373db51b9567c9b9973"
+    },
+    {
+      "path": "figures/Figure 9.png",
+      "sha256": "ac36476b77f6f3e7da77f8bd90cf2faf7da58b3976168b520bfa8e3f508de8af"
+    }
+  ],
+  "output_path_base": "repository root",
+  "record_path_base": "records/unified"
+}

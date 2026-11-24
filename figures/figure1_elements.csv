@@ -1,0 +1,49 @@
+﻿object_id,object_type,text,style,x,y,width,height,waypoints
+encoding,vertex,,rounded=1;arcSize=4;whiteSpace=wrap;html=0;fillColor=#DFEBFA;strokeColor=#A1AFB7;strokeWidth=2;connectable=0;,20,20,1600,350,[]
+encoding-title,vertex,A  Image-to-feature encoding,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#233441;fontStyle=1;align=left;verticalAlign=middle;spacing=0;connectable=0;,45,35,800,40,[]
+layer,vertex,,rounded=1;arcSize=4;whiteSpace=wrap;html=0;fillColor=#F2F3F4;strokeColor=#A1AFB7;strokeWidth=2;connectable=0;,20,450,1600,350,[]
+layer-title,vertex,B  Pre-normalized Transformer layer,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#233441;fontStyle=1;align=left;verticalAlign=middle;spacing=0;connectable=0;,45,465,800,40,[]
+input,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,60,125,280,170,[]
+input-title,vertex,Fundus image,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,72,137,256,36,[]
+input-asset,vertex,,shape=image;imageAspect=1;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=embedded PNG,80,183,84,84,[]
+input-body,vertex,"RGB input
+1024 × 1024 pixels",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,176,181,150,105,[]
+embedding,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,410,125,340,170,[]
+embedding-title,vertex,Token embedding,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,422,137,316,36,[]
+embedding-asset,vertex,,shape=image;imageAspect=1;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=embedded PNG,430,183,84,84,[]
+embedding-body,vertex,"16 × 16 patch projection
+Positional embeddings",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,526,181,210,105,[]
+encoder,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#CADCF3;strokeColor=#233441;strokeWidth=2;,820,125,370,170,[]
+encoder-title,vertex,MedSAM ViT-B encoder,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,832,137,346,36,[]
+encoder-body,vertex,"12 Transformer layers
+Embedding dimension: 768",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,835,183,340,100,[]
+features,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,1260,125,320,170,[]
+features-title,vertex,Visual representations,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,1272,137,296,36,[]
+features-asset,vertex,,shape=image;imageAspect=1;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=embedded PNG,1280,183,84,84,[]
+features-body,vertex,"Spatial token features
+For lesion segmentation",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,1376,181,190,105,[]
+encoding-flow-0,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""340"", ""y"": ""210"", ""as"": ""sourcePoint""}, {""x"": ""410"", ""y"": ""210"", ""as"": ""targetPoint""}]"
+encoding-flow-1,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""750"", ""y"": ""210"", ""as"": ""sourcePoint""}, {""x"": ""820"", ""y"": ""210"", ""as"": ""targetPoint""}]"
+encoding-flow-2,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1190"", ""y"": ""210"", ""as"": ""sourcePoint""}, {""x"": ""1260"", ""y"": ""210"", ""as"": ""targetPoint""}]"
+layer-detail,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1005"", ""y"": ""295"", ""as"": ""sourcePoint""}, {""x"": ""810"", ""y"": ""450"", ""as"": ""targetPoint""}, {""x"": ""1005"", ""y"": ""410""}, {""x"": ""810"", ""y"": ""410""}]"
+detail-label,vertex,Encoder layer detail,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,1090,385,300,35,[]
+layer-input,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,60,565,240,140,[]
+layer-input-title,vertex,Layer input,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,72,577,216,36,[]
+layer-input-body,vertex,Token sequence,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,75,623,210,70,[]
+attention,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#E2EFDC;strokeColor=#233441;strokeWidth=2;,370,540,380,190,[]
+attention-title,vertex,Attention sublayer,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,382,552,356,36,[]
+attention-body,vertex,"Layer normalization (LN)
+Multi-head self-attention (MSA)
+Residual addition",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,385,598,350,120,[]
+ffn,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#F9DFC2;strokeColor=#233441;strokeWidth=2;,820,540,400,190,[]
+ffn-title,vertex,Feed-forward sublayer,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,832,552,376,36,[]
+ffn-body,vertex,"Layer normalization (LN)
+Multilayer perceptron (MLP)
+Residual addition",text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,835,598,370,120,[]
+layer-output,vertex,,rounded=1;arcSize=7;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#233441;strokeWidth=2;,1290,565,290,140,[]
+layer-output-title,vertex,Layer output,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#233441;fontStyle=1;align=center;verticalAlign=middle;spacing=0;connectable=0;,1302,577,266,36,[]
+layer-output-body,vertex,Updated tokens,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,1305,623,260,70,[]
+layer-flow-0,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""300"", ""y"": ""635"", ""as"": ""sourcePoint""}, {""x"": ""370"", ""y"": ""635"", ""as"": ""targetPoint""}]"
+layer-flow-1,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""750"", ""y"": ""635"", ""as"": ""sourcePoint""}, {""x"": ""820"", ""y"": ""635"", ""as"": ""targetPoint""}]"
+layer-flow-2,edge,,edgeStyle=none;rounded=0;curved=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#233441;,,,,,"[{""x"": ""1220"", ""y"": ""635"", ""as"": ""sourcePoint""}, {""x"": ""1290"", ""y"": ""635"", ""as"": ""targetPoint""}]"
+repeat-note,vertex,The same layer structure is repeated across the 12-layer image encoder.,text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#233441;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;,240,750,1160,32,[]

@@ -1,0 +1,42 @@
+{
+  "record_type": "benchmark_protocol",
+  "device": "cpu",
+  "threads": 4,
+  "interop_threads": 1,
+  "batch_size": 1,
+  "input_shape": [
+    1,
+    3,
+    1024,
+    1024
+  ],
+  "precision": "float32",
+  "warmup_per_run": 30,
+  "timed_iterations_per_run": 100,
+  "repeats": 5,
+  "timer": "time.perf_counter",
+  "model_mode": "eval",
+  "autograd": false,
+  "input": "fixed zero tensor",
+  "text_features": "cached before timing",
+  "scope": "model forward producing four lesion logit maps; one input image counts as one frame",
+  "excludes": [
+    "disk access",
+    "image preprocessing",
+    "initial text encoding",
+    "sigmoid and threshold postprocessing"
+  ],
+  "cuda_used": false,
+  "cuda_synchronization": false,
+  "fps_definition": "total input images / total timed seconds",
+  "latency_definition": "per-iteration wall-clock duration; report median and 95th percentile in ms",
+  "required_evidence": [
+    "trained model identity and checkpoint hash",
+    "raw iteration CSV",
+    "software versions",
+    "hardware inventory",
+    "thread counts",
+    "benchmark summary"
+  ],
+  "status": "specified; reference FPS values are not new measurements on this host"
+}

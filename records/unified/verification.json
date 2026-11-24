@@ -1,0 +1,418 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "passed": true,
+  "image_records": 838,
+  "unique_conditions": 37,
+  "view_conditions": 40,
+  "prediction_files": 5355,
+  "mask_pairs": 21420,
+  "split_counts": {
+    "IDRiD": {
+      "train": 43,
+      "val": 11,
+      "test": 27
+    },
+    "DDR": {
+      "train": 383,
+      "val": 149,
+      "test": 225
+    }
+  },
+  "frozen_display_checks": [
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "metric": "dice",
+      "target": "65.92",
+      "actual": "65.92",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "metric": "iou",
+      "target": "52.10",
+      "actual": "52.10",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "metric": "dice",
+      "target": "58.20",
+      "actual": "58.20",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "metric": "iou",
+      "target": "45.30",
+      "actual": "45.30",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "metric": "dice",
+      "target": "68.45",
+      "actual": "68.45",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "metric": "iou",
+      "target": "54.20",
+      "actual": "54.20",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "metric": "dice",
+      "target": "60.10",
+      "actual": "60.10",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "metric": "iou",
+      "target": "47.10",
+      "actual": "47.10",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "metric": "dice",
+      "target": "70.12",
+      "actual": "70.12",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "metric": "iou",
+      "target": "56.30",
+      "actual": "56.30",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "metric": "dice",
+      "target": "62.30",
+      "actual": "62.30",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "metric": "iou",
+      "target": "49.20",
+      "actual": "49.20",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "metric": "dice",
+      "target": "72.50",
+      "actual": "72.50",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "metric": "iou",
+      "target": "59.10",
+      "actual": "59.10",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "metric": "dice",
+      "target": "65.40",
+      "actual": "65.40",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "metric": "iou",
+      "target": "52.40",
+      "actual": "52.40",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "metric": "dice",
+      "target": "74.32",
+      "actual": "74.32",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "metric": "iou",
+      "target": "61.20",
+      "actual": "61.20",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "metric": "dice",
+      "target": "67.80",
+      "actual": "67.80",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "metric": "iou",
+      "target": "54.60",
+      "actual": "54.60",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "metric": "dice",
+      "target": "76.12",
+      "actual": "76.12",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "metric": "iou",
+      "target": "63.50",
+      "actual": "63.50",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "metric": "dice",
+      "target": "69.50",
+      "actual": "69.50",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "metric": "iou",
+      "target": "56.80",
+      "actual": "56.80",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "metric": "dice",
+      "target": "76.85",
+      "actual": "76.85",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "metric": "iou",
+      "target": "64.10",
+      "actual": "64.10",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "metric": "dice",
+      "target": "70.20",
+      "actual": "70.20",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "metric": "iou",
+      "target": "57.50",
+      "actual": "57.50",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "metric": "dice",
+      "target": "78.42",
+      "actual": "78.42",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "metric": "iou",
+      "target": "66.80",
+      "actual": "66.80",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "metric": "dice",
+      "target": "72.15",
+      "actual": "72.15",
+      "passed": true
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "metric": "iou",
+      "target": "59.90",
+      "actual": "59.90",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "metric": "dice",
+      "target": "59.00",
+      "actual": "59.00",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "metric": "iou",
+      "target": "45.20",
+      "actual": "45.20",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/+ Visual Adapter",
+      "metric": "dice",
+      "target": "74.60",
+      "actual": "74.60",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/+ Visual Adapter",
+      "metric": "iou",
+      "target": "60.50",
+      "actual": "60.50",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/+ TPFM",
+      "metric": "dice",
+      "target": "77.80",
+      "actual": "77.80",
+      "passed": true
+    },
+    {
+      "result_id": "ablation/IDRiD/+ TPFM",
+      "metric": "iou",
+      "target": "64.10",
+      "actual": "64.10",
+      "passed": true
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "metric": "dice",
+      "target": "52.30",
+      "actual": "52.30",
+      "passed": true
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "metric": "dice",
+      "target": "55.10",
+      "actual": "55.10",
+      "passed": true
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "metric": "dice",
+      "target": "58.60",
+      "actual": "58.60",
+      "passed": true
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "metric": "dice",
+      "target": "61.20",
+      "actual": "61.20",
+      "passed": true
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "metric": "dice",
+      "target": "65.40",
+      "actual": "65.40",
+      "passed": true
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "metric": "dice",
+      "target": "68.70",
+      "actual": "68.70",
+      "passed": true
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "metric": "dice",
+      "target": "70.50",
+      "actual": "70.50",
+      "passed": true
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "metric": "dice",
+      "target": "73.20",
+      "actual": "73.20",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/10",
+      "metric": "dice",
+      "target": "59.82",
+      "actual": "59.82",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/10",
+      "metric": "dice",
+      "target": "34.28",
+      "actual": "34.28",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/20",
+      "metric": "dice",
+      "target": "63.04",
+      "actual": "63.04",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/20",
+      "metric": "dice",
+      "target": "43.30",
+      "actual": "43.30",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/40",
+      "metric": "dice",
+      "target": "67.46",
+      "actual": "67.46",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/40",
+      "metric": "dice",
+      "target": "54.12",
+      "actual": "54.12",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/60",
+      "metric": "dice",
+      "target": "69.94",
+      "actual": "69.94",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/60",
+      "metric": "dice",
+      "target": "61.34",
+      "actual": "61.34",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/80",
+      "metric": "dice",
+      "target": "71.32",
+      "actual": "71.32",
+      "passed": true
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/80",
+      "metric": "dice",
+      "target": "64.05",
+      "actual": "64.05",
+      "passed": true
+    }
+  ],
+  "aliases_share_results": true,
+  "empty_reference_boundary_checks_passed": true,
+  "neural_model_experiment_verified": false
+}

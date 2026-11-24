@@ -1,0 +1,25 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.1"
+  },
+  "code_sha256": {
+    "unified_records.py": "76b15dfc335870e14013cab14cc6cf2c2eee95650b322f5cddc6a0a0fb6db624",
+    "render_unified.py": "f4b59735b99f4c835195c0ce76a275a69d4a38870dd91062e56d6311874b76c5",
+    "supplement_comment3.py": "c3dcc98ded1dab028f43307330a9b7cd1134f7c6e9eb3192012d7a6b28a3daea",
+    "audit_timing.py": "9596cbefb17f8264eb206813fd2b9d6522157b818ce7b04baded9a3db5a54637",
+    "benchmark.py": "82576ce14d800491f2016a1862133a6c473dd2e6885e818ab3cf1c4c5f609ff1",
+    "tflmedsam/statistics.py": "a872eba6f33bd5a53b10594debcad709b09c042cc38069efdd2f664ed319994f",
+    "tflmedsam/timing.py": "aeb2fbeca38d0f9aecf64a7a3429912ba92d427e3d44b92b6e2031988cea15e6",
+    "tflmedsam/metrics.py": "d9379c8e671b4b2f3c897cf1a0ff19943468df4dacdc2c6ad3d254d7297346dc",
+    "tests/test_statistics_eligibility.py": "4c24450f7269ed92c5ae7a2c68c42848afb255b3cc1de6bf9038f38b76fe7b4a",
+    "tests/test_timing_records.py": "7d8fa0463e0e534b1b45be7286b8bdbe9180093d567a11fb23de641968983029",
+    "check_comment3.py": "7e88213d8300fb3e4ae4c88ea846b13d9702c3c958c4a2c67cd09b421d8f9705",
+    "update_statistical_tables.mjs": "c841ce6ca2ef76bbff1447c3ca667db31efe3eeb136de02e10122093cd3f6961",
+    "document_unified.py": "04d50e4ad1125f900fe813c96d8018a6d6765fe2a5fe0e4bf00d93198512672c"
+  }
+}

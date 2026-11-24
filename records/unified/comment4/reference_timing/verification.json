@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "example_rows": 2000,
+  "methods": 4,
+  "fps_arithmetic_checks": 4,
+  "reference_records_rejected_by_measured_audit": 4,
+  "actual_models_executed": 0
+}

@@ -1,0 +1,154 @@
+{
+  "path_base": "repository root",
+  "repository_inventory": "repository_manifest.json",
+  "files": [
+    {
+      "path": "audit_data.py",
+      "sha256": "a245d70369f8363c3e52a3989a16dee9cb0e1bd5a6154c0695e7f3696686a52c"
+    },
+    {
+      "path": "audit_timing.py",
+      "sha256": "872e8fe709582537ca50a330a2cab1e94554a3d91d6b057a99eacfb7f9cb9618"
+    },
+    {
+      "path": "benchmark.py",
+      "sha256": "0f3e94abaeefc1860811e39bf92c7fa2ae6f9b497320efaf46f9db738b5ead00"
+    },
+    {
+      "path": "build_drawio_figures.py",
+      "sha256": "e99995d50aeba77da555d8621e3a0296a49dfa3740b594d1a2267c60cfa1a9f6"
+    },
+    {
+      "path": "build_reference.py",
+      "sha256": "e047f8e8df200f5de03c129092f35a70f8bf6d5a38c4ba59c543fc565cc0594d"
+    },
+    {
+      "path": "build_reference_timing.py",
+      "sha256": "3123eb336143afa5205fc9820745e06a7577373bfaa708779733dd356b58ac19"
+    },
+    {
+      "path": "configs/environment.json",
+      "sha256": "9e15d026184f4870c24d6e6e0efc03fa2436465751ad32464334230818d3c2cc"
+    },
+    {
+      "path": "configs/prompts.json",
+      "sha256": "0fef82c7aa63d0c7624e98f05f0d053edead1b01908d017ecb006136bfea4c3d"
+    },
+    {
+      "path": "configs/protocol.json",
+      "sha256": "c459f5b778291a8f620b9b18eb9e723f92c9adcd2685c2a9ee611edf3a91e3c4"
+    },
+    {
+      "path": "configs/resources.json",
+      "sha256": "357a5549267012dc1fda72400fdfd4ed3977a18c471648a449d02dacce563bd8"
+    },
+    {
+      "path": "docs/REVIEWER_MATERIALS.md",
+      "sha256": "dc6fe14e8962e138c13052021fab6c82b00cbbd868a144b2e801ea8a78b74ced"
+    },
+    {
+      "path": "evaluate.py",
+      "sha256": "77fe386591861ddc46615e8b542ba224493bbdf5cf595b5019226acc5a63e4aa"
+    },
+    {
+      "path": "export_figure_data.py",
+      "sha256": "75cc4246391ad06a83b0b22cf06a87e2126da060101632fdeeea364999751e38"
+    },
+    {
+      "path": "export_text.py",
+      "sha256": "68dac73f35d2d0420f5bf6fc2a6de6ffcfce6163adfd25b6d434f2928ba30a8b"
+    },
+    {
+      "path": "figures/figure_index.csv",
+      "sha256": "981fed491de219ed8bcbc520db8c9bae8f38fb2766d85f73bbf555e11973f1a5"
+    },
+    {
+      "path": "generate_curves.py",
+      "sha256": "1abca2ac06b0933857f37c07289e936096741e4bdaf4729f71dc740d314c9e13"
+    },
+    {
+      "path": "generate_figures.py",
+      "sha256": "a23f803f6663f28437d6f244bd615df73352c9b97c6b28c62da085b709f0a24f"
+    },
+    {
+      "path": "make_subsets.py",
+      "sha256": "a92c54d33e79d4c4a8eb8f6756b792d416376cc9cc1e3ca21e7d0f801589ed8d"
+    },
+    {
+      "path": "prepare_manifest.py",
+      "sha256": "64def8f1c7a427c9c712f0234a0b40806fbde7b17a7b116d1b7ed45b966dea05"
+    },
+    {
+      "path": "project_paths.py",
+      "sha256": "9830054013d0e2387b08202e1b4ac3c574e0aa80855828abc1fa56586c4b8bef"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1441c5f932300516cdb868a9d6b270ea4b9624436534f090f9ab2ca41372e3cc"
+    },
+    {
+      "path": "render_unified.py",
+      "sha256": "a59eae93cf07fd4af94d3479ca37fc5c031fc6134451c2e178e2f9cc6ea8df88"
+    },
+    {
+      "path": "tflmedsam/__init__.py",
+      "sha256": "0feb7fc82d351049e60b3009e64ce5ace93816d76e478b7b0d6f1c7bf673650d"
+    },
+    {
+      "path": "tflmedsam/data.py",
+      "sha256": "b2e54d8b5ea5dfd9b2e01bc439831851240284cbcffe89d047598d234a29d7f7"
+    },
+    {
+      "path": "tflmedsam/engine.py",
+      "sha256": "09b21fffeadc93c13d26107df687c4640d48168a479bb17f75ef9e399c5796ca"
+    },
+    {
+      "path": "tflmedsam/io.py",
+      "sha256": "722ea0a2c0cf47d655516b2d3981f49d46b7726eff8cfe5aade1b123d61ee5eb"
+    },
+    {
+      "path": "tflmedsam/metrics.py",
+      "sha256": "d9379c8e671b4b2f3c897cf1a0ff19943468df4dacdc2c6ad3d254d7297346dc"
+    },
+    {
+      "path": "tflmedsam/model.py",
+      "sha256": "835fc9df5eba4a4885a2e342d6e45f2aa2d0068de63918cae415dd58bd440919"
+    },
+    {
+      "path": "tflmedsam/statistics.py",
+      "sha256": "a872eba6f33bd5a53b10594debcad709b09c042cc38069efdd2f664ed319994f"
+    },
+    {
+      "path": "tflmedsam/timing.py",
+      "sha256": "aeb2fbeca38d0f9aecf64a7a3429912ba92d427e3d44b92b6e2031988cea15e6"
+    },
+    {
+      "path": "train.py",
+      "sha256": "e395c9e27e477e80e03e937aeb37a0c13d071dfc9a8e20ee2573439eb0c3dd39"
+    },
+    {
+      "path": "unified_records.py",
+      "sha256": "28ee462429d033c33ce2777a6d87925f6e8896e68118d7461759f2365adb54bd"
+    },
+    {
+      "path": "verify_masks.py",
+      "sha256": "f51717eb3ee552ce30051b86b4e8a9206a53a87d761152eb9960a63ff0d55eb5"
+    },
+    {
+      "path": "verify_repository.py",
+      "sha256": "7e0ee2c710c4ee328ab7cef44337138e0c767f6b1d7f648fd45310d960eb6967"
+    },
+    {
+      "path": "verify_run.py",
+      "sha256": "e309c91e4e799d7af0ec178e1fcde823dffc0785e215d3d523b33cb9cf95f10b"
+    },
+    {
+      "path": "材料来源与适用范围.txt",
+      "sha256": "c449b6886a4eeb3eeeecc7243eaca15557a03494a6783ff0ae2544be7e14eb7f"
+    },
+    {
+      "path": "统一说明.txt",
+      "sha256": "e544adb94f1b03ab774f47176096d41bd5360b8bab2546cceb4b19ad59456e39"
+    }
+  ]
+}

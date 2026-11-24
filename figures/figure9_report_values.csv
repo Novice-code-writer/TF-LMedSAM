@@ -1,0 +1,5 @@
+﻿method,FPS,IDRiD_Dice_percent
+U-Net,45,65.92
+TransUNet,20,72.5
+MedSAM (Full),15,76.12
+TF-LMedSAM,28,78.42

@@ -1,0 +1,5 @@
+﻿method,result_id,dice_percent,ci95_low,ci95_high,reported_fps,fps_source,timing_measurement_supplied
+U-Net,comparison/IDRiD/U-Net,65.92022735655749,62.09471309982457,69.42703523138941,45.0,frozen_report.json:sources.figure9.csv,False
+TransUNet,comparison/IDRiD/TransUNet,72.50007086528268,69.97485134190377,75.05060461594869,20.0,frozen_report.json:sources.figure9.csv,False
+MedSAM (Full),comparison/IDRiD/MedSAM (Full),76.1202074022937,73.34796433122145,78.68921383741664,15.0,frozen_report.json:sources.figure9.csv,False
+TF-LMedSAM,comparison/IDRiD/TF-LMedSAM,78.41989783421197,76.57574431422513,80.12181290590402,28.0,frozen_report.json:sources.figure9.csv,False

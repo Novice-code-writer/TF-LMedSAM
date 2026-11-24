@@ -1,0 +1,558 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "seed": 20261112,
+  "sources": {
+    "table1.csv": {
+      "sha256": "b25d6b9a7915aa18a123e8dc364a6d7d6e8c889a26a4b0760ae900661111fb8e",
+      "rows": [
+        {
+          "dataset": "IDRiD",
+          "images": "81",
+          "train": "43",
+          "validation": "11",
+          "test": "27",
+          "MA_fraction": "0.0008",
+          "HE_fraction": "0.0012",
+          "EX_fraction": "0.0025",
+          "SE_fraction": "0.0015"
+        },
+        {
+          "dataset": "DDR",
+          "images": "757",
+          "train": "383",
+          "validation": "149",
+          "test": "225",
+          "MA_fraction": "0.0005",
+          "HE_fraction": "0.0009",
+          "EX_fraction": "0.0018",
+          "SE_fraction": "0.0011"
+        }
+      ]
+    },
+    "table2.csv": {
+      "sha256": "8509e3734e793f075fc92f289ab5c97bf9ed64da107e662204855ba71348e6f8",
+      "rows": [
+        {
+          "method": "U-Net",
+          "IDRiD_Dice_percent": "65.92",
+          "IDRiD_IoU_percent": "52.1",
+          "DDR_Dice_percent": "58.2",
+          "DDR_IoU_percent": "45.3"
+        },
+        {
+          "method": "Att-UNet",
+          "IDRiD_Dice_percent": "68.45",
+          "IDRiD_IoU_percent": "54.2",
+          "DDR_Dice_percent": "60.1",
+          "DDR_IoU_percent": "47.1"
+        },
+        {
+          "method": "CE-Net",
+          "IDRiD_Dice_percent": "70.12",
+          "IDRiD_IoU_percent": "56.3",
+          "DDR_Dice_percent": "62.3",
+          "DDR_IoU_percent": "49.2"
+        },
+        {
+          "method": "TransUNet",
+          "IDRiD_Dice_percent": "72.5",
+          "IDRiD_IoU_percent": "59.1",
+          "DDR_Dice_percent": "65.4",
+          "DDR_IoU_percent": "52.4"
+        },
+        {
+          "method": "Swin-Unet",
+          "IDRiD_Dice_percent": "74.32",
+          "IDRiD_IoU_percent": "61.2",
+          "DDR_Dice_percent": "67.8",
+          "DDR_IoU_percent": "54.6"
+        },
+        {
+          "method": "MedSAM (Full)",
+          "IDRiD_Dice_percent": "76.12",
+          "IDRiD_IoU_percent": "63.5",
+          "DDR_Dice_percent": "69.5",
+          "DDR_IoU_percent": "56.8"
+        },
+        {
+          "method": "MedSAM Adapter",
+          "IDRiD_Dice_percent": "76.85",
+          "IDRiD_IoU_percent": "64.1",
+          "DDR_Dice_percent": "70.2",
+          "DDR_IoU_percent": "57.5"
+        },
+        {
+          "method": "TF-LMedSAM",
+          "IDRiD_Dice_percent": "78.42",
+          "IDRiD_IoU_percent": "66.8",
+          "DDR_Dice_percent": "72.15",
+          "DDR_IoU_percent": "59.9"
+        }
+      ]
+    },
+    "table3.csv": {
+      "sha256": "142db033208abf4bcebd60627e7a7c85e8fc4bc010ab792633b827c42bce6c53",
+      "rows": [
+        {
+          "configuration": "Baseline (Frozen MedSAM)",
+          "Dice_percent": "59",
+          "IoU_percent": "45.2",
+          "Dice_gain_pp": "",
+          "IoU_gain_pp": ""
+        },
+        {
+          "configuration": "+ Visual Adapter",
+          "Dice_percent": "74.6",
+          "IoU_percent": "60.5",
+          "Dice_gain_pp": "15.6",
+          "IoU_gain_pp": "15.3"
+        },
+        {
+          "configuration": "+ TPFM",
+          "Dice_percent": "77.8",
+          "IoU_percent": "64.1",
+          "Dice_gain_pp": "3.2",
+          "IoU_gain_pp": "3.6"
+        },
+        {
+          "configuration": "+ Uncertainty Loss (Full)",
+          "Dice_percent": "78.42",
+          "IoU_percent": "66.8",
+          "Dice_gain_pp": "0.62",
+          "IoU_gain_pp": "2.7"
+        }
+      ]
+    },
+    "table4.csv": {
+      "sha256": "5720f99754b7b2cb402e09580dd5d4f604c71fe1ad6bc782a2f291f2bcbaa6c9",
+      "rows": [
+        {
+          "method": "U-Net",
+          "IDRiD_to_DDR_Dice_percent": "52.3",
+          "DDR_to_IDRiD_Dice_percent": "55.1"
+        },
+        {
+          "method": "TransUNet",
+          "IDRiD_to_DDR_Dice_percent": "58.6",
+          "DDR_to_IDRiD_Dice_percent": "61.2"
+        },
+        {
+          "method": "MedSAM",
+          "IDRiD_to_DDR_Dice_percent": "65.4",
+          "DDR_to_IDRiD_Dice_percent": "68.7"
+        },
+        {
+          "method": "TF-LMedSAM",
+          "IDRiD_to_DDR_Dice_percent": "70.5",
+          "DDR_to_IDRiD_Dice_percent": "73.2"
+        }
+      ]
+    },
+    "figure7.csv": {
+      "sha256": "e3626206fcd7e2d8d610a3dff4c1a3a2ba3a0026c5a517493bef38202d4f7fe7",
+      "rows": [
+        {
+          "training_fraction_percent": "10",
+          "training_images": "38",
+          "TF-LMedSAM_Dice_percent": "59.82",
+          "TransUNet_Dice_percent": "34.28"
+        },
+        {
+          "training_fraction_percent": "20",
+          "training_images": "77",
+          "TF-LMedSAM_Dice_percent": "63.04",
+          "TransUNet_Dice_percent": "43.3"
+        },
+        {
+          "training_fraction_percent": "40",
+          "training_images": "153",
+          "TF-LMedSAM_Dice_percent": "67.46",
+          "TransUNet_Dice_percent": "54.12"
+        },
+        {
+          "training_fraction_percent": "60",
+          "training_images": "230",
+          "TF-LMedSAM_Dice_percent": "69.94",
+          "TransUNet_Dice_percent": "61.34"
+        },
+        {
+          "training_fraction_percent": "80",
+          "training_images": "306",
+          "TF-LMedSAM_Dice_percent": "71.32",
+          "TransUNet_Dice_percent": "64.05"
+        },
+        {
+          "training_fraction_percent": "100",
+          "training_images": "383",
+          "TF-LMedSAM_Dice_percent": "72.15",
+          "TransUNet_Dice_percent": "65.4"
+        }
+      ]
+    },
+    "figure9.csv": {
+      "sha256": "dd355017e370228c2f1ced770e79e40721a0b62d9bed7aed4c86c150bf4e59bf",
+      "rows": [
+        {
+          "method": "U-Net",
+          "FPS": "45",
+          "IDRiD_Dice_percent": "65.92"
+        },
+        {
+          "method": "TransUNet",
+          "FPS": "20",
+          "IDRiD_Dice_percent": "72.5"
+        },
+        {
+          "method": "MedSAM (Full)",
+          "FPS": "15",
+          "IDRiD_Dice_percent": "76.12"
+        },
+        {
+          "method": "TF-LMedSAM",
+          "FPS": "28",
+          "IDRiD_Dice_percent": "78.42"
+        }
+      ]
+    }
+  },
+  "conditions": [
+    {
+      "id": "comparison/IDRiD/U-Net",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "U-Net",
+      "dice": 65.92,
+      "iou": 52.1
+    },
+    {
+      "id": "comparison/DDR/U-Net",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "U-Net",
+      "dice": 58.2,
+      "iou": 45.3
+    },
+    {
+      "id": "comparison/IDRiD/Att-UNet",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "Att-UNet",
+      "dice": 68.45,
+      "iou": 54.2
+    },
+    {
+      "id": "comparison/DDR/Att-UNet",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "Att-UNet",
+      "dice": 60.1,
+      "iou": 47.1
+    },
+    {
+      "id": "comparison/IDRiD/CE-Net",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "CE-Net",
+      "dice": 70.12,
+      "iou": 56.3
+    },
+    {
+      "id": "comparison/DDR/CE-Net",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "CE-Net",
+      "dice": 62.3,
+      "iou": 49.2
+    },
+    {
+      "id": "comparison/IDRiD/TransUNet",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "TransUNet",
+      "dice": 72.5,
+      "iou": 59.1
+    },
+    {
+      "id": "comparison/DDR/TransUNet",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "dice": 65.4,
+      "iou": 52.4
+    },
+    {
+      "id": "comparison/IDRiD/Swin-Unet",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "Swin-Unet",
+      "dice": 74.32,
+      "iou": 61.2
+    },
+    {
+      "id": "comparison/DDR/Swin-Unet",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "Swin-Unet",
+      "dice": 67.8,
+      "iou": 54.6
+    },
+    {
+      "id": "comparison/IDRiD/MedSAM (Full)",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "MedSAM (Full)",
+      "dice": 76.12,
+      "iou": 63.5
+    },
+    {
+      "id": "comparison/DDR/MedSAM (Full)",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "MedSAM (Full)",
+      "dice": 69.5,
+      "iou": 56.8
+    },
+    {
+      "id": "comparison/IDRiD/MedSAM Adapter",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "MedSAM Adapter",
+      "dice": 76.85,
+      "iou": 64.1
+    },
+    {
+      "id": "comparison/DDR/MedSAM Adapter",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "MedSAM Adapter",
+      "dice": 70.2,
+      "iou": 57.5
+    },
+    {
+      "id": "comparison/IDRiD/TF-LMedSAM",
+      "experiment": "comparison",
+      "dataset": "IDRiD",
+      "method": "TF-LMedSAM",
+      "dice": 78.42,
+      "iou": 66.8
+    },
+    {
+      "id": "comparison/DDR/TF-LMedSAM",
+      "experiment": "comparison",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "dice": 72.15,
+      "iou": 59.9
+    },
+    {
+      "id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "experiment": "ablation",
+      "dataset": "IDRiD",
+      "method": "Baseline (Frozen MedSAM)",
+      "dice": 59.0,
+      "iou": 45.2
+    },
+    {
+      "id": "ablation/IDRiD/+ Visual Adapter",
+      "experiment": "ablation",
+      "dataset": "IDRiD",
+      "method": "+ Visual Adapter",
+      "dice": 74.6,
+      "iou": 60.5
+    },
+    {
+      "id": "ablation/IDRiD/+ TPFM",
+      "experiment": "ablation",
+      "dataset": "IDRiD",
+      "method": "+ TPFM",
+      "dice": 77.8,
+      "iou": 64.1
+    },
+    {
+      "id": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "experiment": "cross_IDRiD_to_DDR",
+      "dataset": "DDR",
+      "source_dataset": "IDRiD",
+      "method": "U-Net",
+      "dice": 52.3,
+      "iou": null
+    },
+    {
+      "id": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "experiment": "cross_DDR_to_IDRiD",
+      "dataset": "IDRiD",
+      "source_dataset": "DDR",
+      "method": "U-Net",
+      "dice": 55.1,
+      "iou": null
+    },
+    {
+      "id": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "experiment": "cross_IDRiD_to_DDR",
+      "dataset": "DDR",
+      "source_dataset": "IDRiD",
+      "method": "TransUNet",
+      "dice": 58.6,
+      "iou": null
+    },
+    {
+      "id": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "experiment": "cross_DDR_to_IDRiD",
+      "dataset": "IDRiD",
+      "source_dataset": "DDR",
+      "method": "TransUNet",
+      "dice": 61.2,
+      "iou": null
+    },
+    {
+      "id": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "experiment": "cross_IDRiD_to_DDR",
+      "dataset": "DDR",
+      "source_dataset": "IDRiD",
+      "method": "MedSAM",
+      "dice": 65.4,
+      "iou": null
+    },
+    {
+      "id": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "experiment": "cross_DDR_to_IDRiD",
+      "dataset": "IDRiD",
+      "source_dataset": "DDR",
+      "method": "MedSAM",
+      "dice": 68.7,
+      "iou": null
+    },
+    {
+      "id": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "experiment": "cross_IDRiD_to_DDR",
+      "dataset": "DDR",
+      "source_dataset": "IDRiD",
+      "method": "TF-LMedSAM",
+      "dice": 70.5,
+      "iou": null
+    },
+    {
+      "id": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "experiment": "cross_DDR_to_IDRiD",
+      "dataset": "IDRiD",
+      "source_dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "dice": 73.2,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/10",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "fraction": 10,
+      "training_images": 38,
+      "dice": 59.82,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/10",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "fraction": 10,
+      "training_images": 38,
+      "dice": 34.28,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/20",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "fraction": 20,
+      "training_images": 77,
+      "dice": 63.04,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/20",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "fraction": 20,
+      "training_images": 77,
+      "dice": 43.3,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/40",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "fraction": 40,
+      "training_images": 153,
+      "dice": 67.46,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/40",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "fraction": 40,
+      "training_images": 153,
+      "dice": 54.12,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/60",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "fraction": 60,
+      "training_images": 230,
+      "dice": 69.94,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/60",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "fraction": 60,
+      "training_images": 230,
+      "dice": 61.34,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/80",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TF-LMedSAM",
+      "fraction": 80,
+      "training_images": 306,
+      "dice": 71.32,
+      "iou": null
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/80",
+      "experiment": "training_fraction",
+      "dataset": "DDR",
+      "method": "TransUNet",
+      "fraction": 80,
+      "training_images": 306,
+      "dice": 64.05,
+      "iou": null
+    }
+  ],
+  "aliases": [
+    {
+      "id": "ablation/IDRiD/+ Uncertainty Loss (Full)",
+      "result_id": "comparison/IDRiD/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/100",
+      "result_id": "comparison/DDR/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/100",
+      "result_id": "comparison/DDR/TransUNet"
+    }
+  ]
+}

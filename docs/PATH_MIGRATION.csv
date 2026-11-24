@@ -1,0 +1,12 @@
+﻿previous_workspace_path,current_repository_path,purpose
+实验代码/*.py,Root *.py files,Active entry points remain at the Git worktree root
+实验代码/tflmedsam/,tflmedsam/,Model and metric modules
+数据记录/unified_records/,records/unified/,Active record family; manuscript label unified_records maps here
+数据记录/unified_records/figures/,figures/,Current figure exports
+图/,figures/,Editable diagrams and manuscript images
+实验代码/source_data/figure7.csv,figures/figure7_report_values.csv,Frozen figure targets
+实验代码/source_data/figure9.csv,figures/figure9_report_values.csv,Reference throughput coordinates
+实验代码/source_data/table*.csv,tables/source_data/,Frozen table targets
+表/*.xlsx,tables/,Current table workbooks
+表/Figure Source Data.xlsx,tables/legacy/Figure Source Data.xlsx,Historical workbook; current figure CSVs take precedence
+Manuscript editing and old packaging scripts,tools/legacy/,Archival helpers with original workspace paths

@@ -1,0 +1,30 @@
+{
+  "record_type": "reference_timing_example",
+  "method": "MedSAM (Full)",
+  "actual_model_executed": false,
+  "measured_on_current_host": false,
+  "device": null,
+  "hardware_attribution": null,
+  "reference_fps": 15.0,
+  "construction_seed": 20261114,
+  "construction": "positive lognormal examples normalized to the frozen reference FPS",
+  "example_summary": {
+    "frames_per_second": 14.999999999999998,
+    "elapsed_seconds": 33.333333333333336,
+    "processed_images": 500,
+    "measured_iterations": 500,
+    "benchmark_runs": 5,
+    "median_latency_ms": 66.77679162213343,
+    "p95_latency_ms": 69.44390059114053,
+    "fps_ci95": [
+      14.898640252321622,
+      15.094084877851435
+    ],
+    "interval_resampling_unit": "benchmark run",
+    "bootstrap_replicates": 2000
+  },
+  "interval_scope": "variation within generated examples; not measured hardware uncertainty",
+  "raw_samples_path": "method_3_samples.csv",
+  "raw_samples_sha256": "508048a6244a7128359b1005514bdde8c97b401e937781c56514a29ee62aa699",
+  "intended_protocol": "../benchmark_protocol.json"
+}

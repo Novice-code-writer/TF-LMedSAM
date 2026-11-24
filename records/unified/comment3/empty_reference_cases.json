@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "case": "empty_both",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1,
+      "dice": null,
+      "iou": null,
+      "sensitivity": null,
+      "specificity": 1.0,
+      "reference_positive": false,
+      "negative_image_false_positive": false
+    },
+    {
+      "case": "empty_reference_false_positive",
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "tn": 0,
+      "dice": null,
+      "iou": null,
+      "sensitivity": null,
+      "specificity": 0.0,
+      "reference_positive": false,
+      "negative_image_false_positive": true
+    },
+    {
+      "case": "positive_reference_missed",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "dice": 0.0,
+      "iou": 0.0,
+      "sensitivity": 0.0,
+      "specificity": null,
+      "reference_positive": true,
+      "negative_image_false_positive": false
+    },
+    {
+      "case": "positive_reference_matched",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "dice": 1.0,
+      "iou": 1.0,
+      "sensitivity": 1.0,
+      "specificity": null,
+      "reference_positive": true,
+      "negative_image_false_positive": false
+    }
+  ],
+  "mixed_image_macro": [
+    1.0,
+    0.35,
+    0.8,
+    null
+  ],
+  "mixed_class_balanced_mean": 0.625,
+  "last_image_included": false
+}

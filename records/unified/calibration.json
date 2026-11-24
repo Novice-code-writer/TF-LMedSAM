@@ -1,0 +1,301 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "results": [
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "iterations": 0,
+      "dice_percent": 65.9202273565575,
+      "iou_percent": 52.09974361301802,
+      "target_dice_percent": 65.92,
+      "target_iou_percent": 52.1
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "iterations": 8,
+      "dice_percent": 58.20012362667622,
+      "iou_percent": 45.29983370875318,
+      "target_dice_percent": 58.2,
+      "target_iou_percent": 45.3
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "iterations": 3,
+      "dice_percent": 68.45028016851344,
+      "iou_percent": 54.1996611858521,
+      "target_dice_percent": 68.45,
+      "target_iou_percent": 54.2
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "iterations": 6,
+      "dice_percent": 60.09995294370849,
+      "iou_percent": 47.10011096534616,
+      "target_dice_percent": 60.1,
+      "target_iou_percent": 47.1
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "iterations": 3,
+      "dice_percent": 70.11999187493913,
+      "iou_percent": 56.29969315044565,
+      "target_dice_percent": 70.12,
+      "target_iou_percent": 56.3
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "iterations": 7,
+      "dice_percent": 62.30013480058641,
+      "iou_percent": 49.199892255387944,
+      "target_dice_percent": 62.3,
+      "target_iou_percent": 49.2
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "iterations": 1,
+      "dice_percent": 72.50007086528268,
+      "iou_percent": 59.09999910133019,
+      "target_dice_percent": 72.5,
+      "target_iou_percent": 59.1
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "iterations": 2,
+      "dice_percent": 65.39982649757361,
+      "iou_percent": 52.400001271177935,
+      "target_dice_percent": 65.4,
+      "target_iou_percent": 52.4
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "iterations": 4,
+      "dice_percent": 74.31990378651632,
+      "iou_percent": 61.2002640221448,
+      "target_dice_percent": 74.32,
+      "target_iou_percent": 61.2
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "iterations": 2,
+      "dice_percent": 67.80013153476116,
+      "iou_percent": 54.59980053879745,
+      "target_dice_percent": 67.8,
+      "target_iou_percent": 54.6
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "iterations": 0,
+      "dice_percent": 76.12020740229369,
+      "iou_percent": 63.499876721676664,
+      "target_dice_percent": 76.12,
+      "target_iou_percent": 63.5
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "iterations": 9,
+      "dice_percent": 69.49987687268853,
+      "iou_percent": 56.80019536978558,
+      "target_dice_percent": 69.5,
+      "target_iou_percent": 56.8
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "iterations": 4,
+      "dice_percent": 76.8497061103804,
+      "iou_percent": 64.10046182619271,
+      "target_dice_percent": 76.85,
+      "target_iou_percent": 64.1
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "iterations": 4,
+      "dice_percent": 70.20016248432812,
+      "iou_percent": 57.499818616540196,
+      "target_dice_percent": 70.2,
+      "target_iou_percent": 57.5
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "iterations": 0,
+      "dice_percent": 78.41989783421197,
+      "iou_percent": 66.80039404117281,
+      "target_dice_percent": 78.42,
+      "target_iou_percent": 66.8
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "iterations": 2,
+      "dice_percent": 72.14984029150553,
+      "iou_percent": 59.90009107745151,
+      "target_dice_percent": 72.15,
+      "target_iou_percent": 59.9
+    },
+    {
+      "result_id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "iterations": 1,
+      "dice_percent": 58.99984476444624,
+      "iou_percent": 45.20000787100844,
+      "target_dice_percent": 59.0,
+      "target_iou_percent": 45.2
+    },
+    {
+      "result_id": "ablation/IDRiD/+ Visual Adapter",
+      "iterations": 0,
+      "dice_percent": 74.60027712439215,
+      "iou_percent": 60.49974452831036,
+      "target_dice_percent": 74.6,
+      "target_iou_percent": 60.5
+    },
+    {
+      "result_id": "ablation/IDRiD/+ TPFM",
+      "iterations": 1,
+      "dice_percent": 77.79989877160027,
+      "iou_percent": 64.09999451544806,
+      "target_dice_percent": 77.8,
+      "target_iou_percent": 64.1
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "iterations": 3,
+      "dice_percent": 52.30015145517933,
+      "iou_percent": 35.747704506487125,
+      "target_dice_percent": 52.3,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "iterations": 1,
+      "dice_percent": 55.10007091970716,
+      "iou_percent": 38.3672809788407,
+      "target_dice_percent": 55.1,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "iterations": 2,
+      "dice_percent": 58.599872549358146,
+      "iou_percent": 41.78576746867441,
+      "target_dice_percent": 58.6,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "iterations": 2,
+      "dice_percent": 61.20011672980247,
+      "iou_percent": 44.43384698918788,
+      "target_dice_percent": 61.2,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "iterations": 0,
+      "dice_percent": 65.39985677040671,
+      "iou_percent": 48.924486449703764,
+      "target_dice_percent": 65.4,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "iterations": 3,
+      "dice_percent": 68.69993606095933,
+      "iou_percent": 52.650838450999814,
+      "target_dice_percent": 68.7,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "iterations": 4,
+      "dice_percent": 70.49991005996345,
+      "iou_percent": 54.76096907781901,
+      "target_dice_percent": 70.5,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "iterations": 2,
+      "dice_percent": 73.20012039601829,
+      "iou_percent": 58.03820856901767,
+      "target_dice_percent": 73.2,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/10",
+      "iterations": 5,
+      "dice_percent": 59.81990174540013,
+      "iou_percent": 46.38214837423348,
+      "target_dice_percent": 59.82,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/10",
+      "iterations": 5,
+      "dice_percent": 34.280056593783804,
+      "iou_percent": 23.08056489905522,
+      "target_dice_percent": 34.28,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/20",
+      "iterations": 3,
+      "dice_percent": 63.03995577814546,
+      "iou_percent": 49.751240993372704,
+      "target_dice_percent": 63.04,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/20",
+      "iterations": 3,
+      "dice_percent": 43.2998332921991,
+      "iou_percent": 30.726039943315048,
+      "target_dice_percent": 43.3,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/40",
+      "iterations": 6,
+      "dice_percent": 67.46000733458635,
+      "iou_percent": 54.5544350816497,
+      "target_dice_percent": 67.46,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/40",
+      "iterations": 4,
+      "dice_percent": 54.11995055184521,
+      "iou_percent": 40.777143003055386,
+      "target_dice_percent": 54.12,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/60",
+      "iterations": 2,
+      "dice_percent": 69.93989161998105,
+      "iou_percent": 57.347642189277714,
+      "target_dice_percent": 69.94,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/60",
+      "iterations": 3,
+      "dice_percent": 61.339910533089636,
+      "iou_percent": 48.0714122459949,
+      "target_dice_percent": 61.34,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/80",
+      "iterations": 2,
+      "dice_percent": 71.31982168202411,
+      "iou_percent": 58.93412391112687,
+      "target_dice_percent": 71.32,
+      "target_iou_percent": null
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/80",
+      "iterations": 1,
+      "dice_percent": 64.05004944684069,
+      "iou_percent": 50.94216732996715,
+      "target_dice_percent": 64.05,
+      "target_iou_percent": null
+    }
+  ]
+}

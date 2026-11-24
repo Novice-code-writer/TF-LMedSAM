@@ -1,0 +1,30 @@
+{
+  "record_type": "reference_timing_example",
+  "method": "U-Net",
+  "actual_model_executed": false,
+  "measured_on_current_host": false,
+  "device": null,
+  "hardware_attribution": null,
+  "reference_fps": 45.0,
+  "construction_seed": 20261112,
+  "construction": "positive lognormal examples normalized to the frozen reference FPS",
+  "example_summary": {
+    "frames_per_second": 45.0,
+    "elapsed_seconds": 11.11111111111111,
+    "processed_images": 500,
+    "measured_iterations": 500,
+    "benchmark_runs": 5,
+    "median_latency_ms": 22.20132283420686,
+    "p95_latency_ms": 23.262954735770094,
+    "fps_ci95": [
+      44.568226644142946,
+      45.439117946184695
+    ],
+    "interval_resampling_unit": "benchmark run",
+    "bootstrap_replicates": 2000
+  },
+  "interval_scope": "variation within generated examples; not measured hardware uncertainty",
+  "raw_samples_path": "method_1_samples.csv",
+  "raw_samples_sha256": "4f6d9f522d85a14822f461de6dba6932f7c7b48ae2871e29e9dd6028685522b9",
+  "intended_protocol": "../benchmark_protocol.json"
+}

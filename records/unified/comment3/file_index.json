@@ -1,0 +1,102 @@
+{
+  "path_base": "records/unified/comment3",
+  "files": [
+    {
+      "path": "class_eligibility.csv",
+      "sha256": "93f7dfb5e7f3bbd41cdf16dd6aa19d84fb42b9531a7ed5ad8bb39e0665cb870a"
+    },
+    {
+      "path": "derivation_environment.json",
+      "sha256": "c4028077ecd966c15e7f91d0cb47c72e06955d3e599bf093d3a308cd1d7ff0d1"
+    },
+    {
+      "path": "empty_reference_cases.json",
+      "sha256": "9e89e17439c3fbdd0f3f4cf16561c821e832b66241423c0f69265350fad9dc74"
+    },
+    {
+      "path": "figure4_image_scores.csv",
+      "sha256": "736ec047445687f8a005ae7bcd0878e06fca2a04961c3d3148437352f06ad1ae"
+    },
+    {
+      "path": "figure7_statistics.csv",
+      "sha256": "3263957dbe24191750b3ee7eb34d02c175d390b0def8088ca9027c7466e7a492"
+    },
+    {
+      "path": "figure8_evaluation_links.json",
+      "sha256": "9d702069ce4cbfd6f68e5420f265e5ee23af7c418be129957703ffcf157b69f1"
+    },
+    {
+      "path": "figure9_statistics.csv",
+      "sha256": "2aaa1335c69fda48d3404622a52ce7b6f6f2249561b89953d57bcc5cb3aacafb"
+    },
+    {
+      "path": "methods_and_legend.txt",
+      "sha256": "fcc23e40a15ea0ae409beeaaa9b1e71e1ee40a82441bf0379951da7271f347e2"
+    },
+    {
+      "path": "paired_dice_comparisons.csv",
+      "sha256": "690c6078999b1b63f6b3dcdd5da4441dd4a049161e54577971c6dfe579708f8e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5070dfb8b1ea4d0e346813f9d0f560951dbfb4ff16ac223cd2e3f4a7969a56f5"
+    },
+    {
+      "path": "reviewer_response_en.txt",
+      "sha256": "810a6a5cc4ff7bfbebf0e9c7585ca56d2e45e1754380f9bd0c31b21cf412f96f"
+    },
+    {
+      "path": "runtime.json",
+      "sha256": "578ca96f264e00e84c554e91e228d2684342aaeba7e658177918ec0e24235726"
+    },
+    {
+      "path": "statistical_protocol.json",
+      "sha256": "da786dc4f29c4586140cc1950c6a8b1dad116d283eec19b257120bd6fc0b5897"
+    },
+    {
+      "path": "table2_statistics.csv",
+      "sha256": "c7dcbb2cc8da8fa566400dbbef06b0c433ccfbd0234181737074ab2f581da4ff"
+    },
+    {
+      "path": "table3_statistics.csv",
+      "sha256": "565ec5eceedd3eaf1e8870d167cc304e469a6bb8809fac29ce4103eccbdbf861"
+    },
+    {
+      "path": "table4_statistics.csv",
+      "sha256": "41e14fca46ca85128b4f0c27c5e2c2f80d5097babab8f2ff727a9fc4f66588ea"
+    },
+    {
+      "path": "test_output.txt",
+      "sha256": "3f2f7882fcb410bb1dea24edeefdc062967ddc319fa080fea8be212c1af94824"
+    },
+    {
+      "path": "timing_audit.json",
+      "sha256": "0f049298374fff7071359dad989e594f01606dec08cefac6207245238cd5e0b9"
+    },
+    {
+      "path": "timing_samples_schema.csv",
+      "sha256": "7b2dadb28772f8867f6e47022dc19ae07daf233465bcf47292034e8bead54eb3"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "f9511812fb7e3822de605511376a5fde0b6f9b93a1a06f6217f795738393447a"
+    }
+  ],
+  "workbooks": [
+    {
+      "path": "tables/Table 2.xlsx",
+      "path_base": "repository root",
+      "sha256": "9f922089e5bff0cf5455375debc3159c6449da35c5bf9a6606a65b4264d4b336"
+    },
+    {
+      "path": "tables/Table 3.xlsx",
+      "path_base": "repository root",
+      "sha256": "557c980910c90635f92068cb1a689da9aa738e9d639d139cc018e0bb823b9f94"
+    },
+    {
+      "path": "tables/Table 4.xlsx",
+      "path_base": "repository root",
+      "sha256": "3400eb5edcc00b9b3a8e4b15a693e49d7ec322f83805f4e3320f238d73d107b3"
+    }
+  ]
+}

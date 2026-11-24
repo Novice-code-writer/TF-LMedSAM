@@ -1,0 +1,674 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "permutation_replicates": 4999,
+  "bootstrap_replicates": 2000,
+  "rows": [
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/U-Net",
+      "metric": "dice",
+      "difference_pp": 12.499670477654464,
+      "ci95_pp": [
+        8.56632689284902,
+        16.449170664450314
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/Att-UNet",
+      "metric": "dice",
+      "difference_pp": 9.969617665698543,
+      "ci95_pp": [
+        6.659214374252346,
+        13.229629342169444
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/CE-Net",
+      "metric": "dice",
+      "difference_pp": 8.299905959272829,
+      "ci95_pp": [
+        5.6646014768902795,
+        10.934709972140825
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/TransUNet",
+      "metric": "dice",
+      "difference_pp": 5.919826968929289,
+      "ci95_pp": [
+        3.3933602822239877,
+        8.628937713884794
+      ],
+      "p_raw": 0.0004,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0016
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/Swin-Unet",
+      "metric": "dice",
+      "difference_pp": 4.099994047695673,
+      "ci95_pp": [
+        1.0824802880783175,
+        7.179529250333584
+      ],
+      "p_raw": 0.013,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.039
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/MedSAM (Full)",
+      "metric": "dice",
+      "difference_pp": 2.299690431918264,
+      "ci95_pp": [
+        -0.7269023627900012,
+        5.0610505112208
+      ],
+      "p_raw": 0.1296,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.2592
+    },
+    {
+      "family": "comparison_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "comparison/IDRiD/MedSAM Adapter",
+      "metric": "dice",
+      "difference_pp": 1.5701917238315866,
+      "ci95_pp": [
+        -1.3202845641313958,
+        4.372813610264469
+      ],
+      "p_raw": 0.2946,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.2946
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/U-Net",
+      "metric": "dice",
+      "difference_pp": 13.949716664829308,
+      "ci95_pp": [
+        12.134611381727654,
+        15.707962978043117
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/Att-UNet",
+      "metric": "dice",
+      "difference_pp": 12.049887347797036,
+      "ci95_pp": [
+        10.45133827546553,
+        13.584126040409648
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/CE-Net",
+      "metric": "dice",
+      "difference_pp": 9.849705490919106,
+      "ci95_pp": [
+        8.06295590540686,
+        11.589027730864874
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/TransUNet",
+      "metric": "dice",
+      "difference_pp": 6.750013793931921,
+      "ci95_pp": [
+        5.08839574916939,
+        8.358872496932518
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/Swin-Unet",
+      "metric": "dice",
+      "difference_pp": 4.3497087567443655,
+      "ci95_pp": [
+        2.9984175720334094,
+        5.732118190401321
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0014
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/MedSAM (Full)",
+      "metric": "dice",
+      "difference_pp": 2.64996341881699,
+      "ci95_pp": [
+        1.2167824063788568,
+        4.123519019611225
+      ],
+      "p_raw": 0.0012,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0024
+    },
+    {
+      "family": "comparison_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/MedSAM Adapter",
+      "metric": "dice",
+      "difference_pp": 1.9496778071773995,
+      "ci95_pp": [
+        0.4083189709935151,
+        3.3503421002144904
+      ],
+      "p_raw": 0.011,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.011
+    },
+    {
+      "family": "ablation_IDRiD",
+      "result_a": "ablation/IDRiD/+ Visual Adapter",
+      "result_b": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "metric": "dice",
+      "difference_pp": 15.600432359945898,
+      "ci95_pp": [
+        10.431772979099021,
+        20.696748755201185
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "ablation_IDRiD",
+      "result_a": "ablation/IDRiD/+ TPFM",
+      "result_b": "ablation/IDRiD/+ Visual Adapter",
+      "metric": "dice",
+      "difference_pp": 3.19962164720813,
+      "ci95_pp": [
+        0.890459049896465,
+        5.6041293883747745
+      ],
+      "p_raw": 0.014,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.028
+    },
+    {
+      "family": "ablation_IDRiD",
+      "result_a": "comparison/IDRiD/TF-LMedSAM",
+      "result_b": "ablation/IDRiD/+ TPFM",
+      "metric": "dice",
+      "difference_pp": 0.6199990626117005,
+      "ci95_pp": [
+        -1.6850752401887923,
+        2.7044170602155493
+      ],
+      "p_raw": 0.5926,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.5926
+    },
+    {
+      "family": "cross_IDRiD_to_DDR",
+      "result_a": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "result_b": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "metric": "dice",
+      "difference_pp": 18.199758604784115,
+      "ci95_pp": [
+        17.630912562390552,
+        18.74650838704967
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "cross_IDRiD_to_DDR",
+      "result_a": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "result_b": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "metric": "dice",
+      "difference_pp": 11.900037510605296,
+      "ci95_pp": [
+        11.355458369306834,
+        12.444499571556936
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "cross_IDRiD_to_DDR",
+      "result_a": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "result_b": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "metric": "dice",
+      "difference_pp": 5.100053289556736,
+      "ci95_pp": [
+        4.631249143032729,
+        5.624972745087157
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "cross_DDR_to_IDRiD",
+      "result_a": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "result_b": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "metric": "dice",
+      "difference_pp": 18.100049476311124,
+      "ci95_pp": [
+        16.71217517776383,
+        19.470393077243653
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "cross_DDR_to_IDRiD",
+      "result_a": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "result_b": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "metric": "dice",
+      "difference_pp": 12.000003666215846,
+      "ci95_pp": [
+        10.498823376235928,
+        13.541102264152412
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "cross_DDR_to_IDRiD",
+      "result_a": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "result_b": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "metric": "dice",
+      "difference_pp": 4.500184335058955,
+      "ci95_pp": [
+        3.125959857411534,
+        5.8255594848045895
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 27,
+      "eligible_paired_images": 27,
+      "per_class_eligible_counts": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "p_holm": 0.0006000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "training_fraction/DDR/TF-LMedSAM/10",
+      "result_b": "training_fraction/DDR/TransUNet/10",
+      "metric": "dice",
+      "difference_pp": 25.539845151616326,
+      "ci95_pp": [
+        23.80457505909071,
+        27.063830693961698
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "training_fraction/DDR/TF-LMedSAM/20",
+      "result_b": "training_fraction/DDR/TransUNet/20",
+      "metric": "dice",
+      "difference_pp": 19.740122485946372,
+      "ci95_pp": [
+        17.995266050594516,
+        21.476489205186475
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "training_fraction/DDR/TF-LMedSAM/40",
+      "result_b": "training_fraction/DDR/TransUNet/40",
+      "metric": "dice",
+      "difference_pp": 13.340056782741131,
+      "ci95_pp": [
+        11.717989067916736,
+        15.047898715708538
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "training_fraction/DDR/TF-LMedSAM/60",
+      "result_b": "training_fraction/DDR/TransUNet/60",
+      "metric": "dice",
+      "difference_pp": 8.599981086891418,
+      "ci95_pp": [
+        6.9827631090369575,
+        10.267563627152011
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "training_fraction/DDR/TF-LMedSAM/80",
+      "result_b": "training_fraction/DDR/TransUNet/80",
+      "metric": "dice",
+      "difference_pp": 7.269772235183426,
+      "ci95_pp": [
+        5.635048822095956,
+        8.885376552007738
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    },
+    {
+      "family": "training_fraction_DDR",
+      "result_a": "comparison/DDR/TF-LMedSAM",
+      "result_b": "comparison/DDR/TransUNet",
+      "metric": "dice",
+      "difference_pp": 6.750013793931921,
+      "ci95_pp": [
+        5.08839574916939,
+        8.358872496932518
+      ],
+      "p_raw": 0.0002,
+      "bootstrap_valid_replicates": 2000,
+      "bootstrap_excluded_replicates": 0,
+      "paired_images": 225,
+      "eligible_paired_images": 225,
+      "per_class_eligible_counts": [
+        225,
+        225,
+        225,
+        225
+      ],
+      "p_holm": 0.0012000000000000001
+    }
+  ]
+}

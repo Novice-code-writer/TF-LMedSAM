@@ -1,0 +1,30 @@
+{
+  "record_type": "reference_timing_example",
+  "method": "TransUNet",
+  "actual_model_executed": false,
+  "measured_on_current_host": false,
+  "device": null,
+  "hardware_attribution": null,
+  "reference_fps": 20.0,
+  "construction_seed": 20261113,
+  "construction": "positive lognormal examples normalized to the frozen reference FPS",
+  "example_summary": {
+    "frames_per_second": 20.0,
+    "elapsed_seconds": 25.0,
+    "processed_images": 500,
+    "measured_iterations": 500,
+    "benchmark_runs": 5,
+    "median_latency_ms": 49.97374782908654,
+    "p95_latency_ms": 52.075630207983174,
+    "fps_ci95": [
+      19.912158777550065,
+      20.136128494330986
+    ],
+    "interval_resampling_unit": "benchmark run",
+    "bootstrap_replicates": 2000
+  },
+  "interval_scope": "variation within generated examples; not measured hardware uncertainty",
+  "raw_samples_path": "method_2_samples.csv",
+  "raw_samples_sha256": "473fa213808515e38e53c0fc00569243a2acb760aa013a4e4b236ad4e58dc422",
+  "intended_protocol": "../benchmark_protocol.json"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "figure_count": 9,
+  "files_hashed": 9747,
+  "material_path_checks": 9859,
+  "total_bytes": 459502781,
+  "maximum_file_bytes": 18646885,
+  "internal_paths_verified": true,
+  "git_history_preserved": true,
+  "source_notices_preserved": true,
+  "fps_reference_status_preserved": true,
+  "neural_benchmark_executed": false
+}

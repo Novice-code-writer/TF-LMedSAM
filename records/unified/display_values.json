@@ -1,0 +1,204 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "rows": [
+    {
+      "result_id": "comparison/IDRiD/U-Net",
+      "dice": "65.92",
+      "iou": "52.10"
+    },
+    {
+      "result_id": "comparison/DDR/U-Net",
+      "dice": "58.20",
+      "iou": "45.30"
+    },
+    {
+      "result_id": "comparison/IDRiD/Att-UNet",
+      "dice": "68.45",
+      "iou": "54.20"
+    },
+    {
+      "result_id": "comparison/DDR/Att-UNet",
+      "dice": "60.10",
+      "iou": "47.10"
+    },
+    {
+      "result_id": "comparison/IDRiD/CE-Net",
+      "dice": "70.12",
+      "iou": "56.30"
+    },
+    {
+      "result_id": "comparison/DDR/CE-Net",
+      "dice": "62.30",
+      "iou": "49.20"
+    },
+    {
+      "result_id": "comparison/IDRiD/TransUNet",
+      "dice": "72.50",
+      "iou": "59.10"
+    },
+    {
+      "result_id": "comparison/DDR/TransUNet",
+      "dice": "65.40",
+      "iou": "52.40"
+    },
+    {
+      "result_id": "comparison/IDRiD/Swin-Unet",
+      "dice": "74.32",
+      "iou": "61.20"
+    },
+    {
+      "result_id": "comparison/DDR/Swin-Unet",
+      "dice": "67.80",
+      "iou": "54.60"
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM (Full)",
+      "dice": "76.12",
+      "iou": "63.50"
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM (Full)",
+      "dice": "69.50",
+      "iou": "56.80"
+    },
+    {
+      "result_id": "comparison/IDRiD/MedSAM Adapter",
+      "dice": "76.85",
+      "iou": "64.10"
+    },
+    {
+      "result_id": "comparison/DDR/MedSAM Adapter",
+      "dice": "70.20",
+      "iou": "57.50"
+    },
+    {
+      "result_id": "comparison/IDRiD/TF-LMedSAM",
+      "dice": "78.42",
+      "iou": "66.80"
+    },
+    {
+      "result_id": "comparison/DDR/TF-LMedSAM",
+      "dice": "72.15",
+      "iou": "59.90"
+    },
+    {
+      "result_id": "ablation/IDRiD/Baseline (Frozen MedSAM)",
+      "dice": "59.00",
+      "iou": "45.20"
+    },
+    {
+      "result_id": "ablation/IDRiD/+ Visual Adapter",
+      "dice": "74.60",
+      "iou": "60.50"
+    },
+    {
+      "result_id": "ablation/IDRiD/+ TPFM",
+      "dice": "77.80",
+      "iou": "64.10"
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/U-Net",
+      "dice": "52.30",
+      "iou": "35.75"
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/U-Net",
+      "dice": "55.10",
+      "iou": "38.37"
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TransUNet",
+      "dice": "58.60",
+      "iou": "41.79"
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TransUNet",
+      "dice": "61.20",
+      "iou": "44.43"
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/MedSAM",
+      "dice": "65.40",
+      "iou": "48.92"
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/MedSAM",
+      "dice": "68.70",
+      "iou": "52.65"
+    },
+    {
+      "result_id": "cross_IDRiD_to_DDR/DDR/TF-LMedSAM",
+      "dice": "70.50",
+      "iou": "54.76"
+    },
+    {
+      "result_id": "cross_DDR_to_IDRiD/IDRiD/TF-LMedSAM",
+      "dice": "73.20",
+      "iou": "58.04"
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/10",
+      "dice": "59.82",
+      "iou": "46.38"
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/10",
+      "dice": "34.28",
+      "iou": "23.08"
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/20",
+      "dice": "63.04",
+      "iou": "49.75"
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/20",
+      "dice": "43.30",
+      "iou": "30.73"
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/40",
+      "dice": "67.46",
+      "iou": "54.55"
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/40",
+      "dice": "54.12",
+      "iou": "40.78"
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/60",
+      "dice": "69.94",
+      "iou": "57.35"
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/60",
+      "dice": "61.34",
+      "iou": "48.07"
+    },
+    {
+      "result_id": "training_fraction/DDR/TF-LMedSAM/80",
+      "dice": "71.32",
+      "iou": "58.93"
+    },
+    {
+      "result_id": "training_fraction/DDR/TransUNet/80",
+      "dice": "64.05",
+      "iou": "50.94"
+    }
+  ],
+  "aliases": [
+    {
+      "id": "ablation/IDRiD/+ Uncertainty Loss (Full)",
+      "result_id": "comparison/IDRiD/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/100",
+      "result_id": "comparison/DDR/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/100",
+      "result_id": "comparison/DDR/TransUNet"
+    }
+  ]
+}

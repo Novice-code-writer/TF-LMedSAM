@@ -1,0 +1,10 @@
+﻿figure,image_file,csv_file,editable_source,description,record_source
+1,Figure 1.png,figure1_elements.csv,Figure 1.drawio,Editable diagram objects,drawio_validation.json
+2,Figure 2.png,figure2_elements.csv,Figure 2.drawio,Editable diagram objects,drawio_validation.json
+3,Figure 3.png,figure3_panels.csv,,Panel source paths,../records/unified/figure_sources.json
+4,Figure 4.png,figure4_image_scores.csv,,Image-level macro Dice scores,../records/unified/figure_sources.json
+5,Figure 5.png,figure5_regions.csv,,Crop coordinates and linked masks,../records/unified/figure_sources.json
+6,Figure 6.png,figure6_pixels.csv,,Schematic image and spatial fields,figure6_arrays.npz
+7,Figure 7.png,figure7_statistics.csv,,Dice and confidence intervals,../records/unified/figure_sources.json
+8,Figure 8.png,figure8_panels.csv,,Cross-domain panel paths and class metrics,../records/unified/figure_sources.json
+9,Figure 9.png,figure9_statistics.csv,,Dice intervals and reference FPS,../records/unified/figure_sources.json

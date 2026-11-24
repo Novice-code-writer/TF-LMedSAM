@@ -1,0 +1,38 @@
+{
+  "record_type": "hardware_inventory",
+  "captured_date": "2026-11-23",
+  "source": "Read-only Win32 CIM queries on the current computer",
+  "cpu": {
+    "name": "Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz",
+    "physical_cores": 4,
+    "logical_processors": 4
+  },
+  "installed_memory_bytes": 16997744640,
+  "installed_memory_GiB": 15.83038330078125,
+  "graphics": [
+    {
+      "name": "Intel(R) HD Graphics 4600",
+      "driver": "20.19.15.4531"
+    },
+    {
+      "name": "OrayIddDriver Device",
+      "driver": "16.54.44.444",
+      "role": "virtual display"
+    }
+  ],
+  "nvidia_device_listed": false,
+  "execution_device": "cpu",
+  "os": {
+    "name": "Microsoft Windows 10 Education",
+    "version": "10.0.19045",
+    "architecture": "64-bit"
+  },
+  "historical_training_host": {
+    "source": "Author confirmation on 2026-11-23",
+    "same_physical_computer": true,
+    "system_reinstalled": true,
+    "historical_training_software_versions_verified": false
+  },
+  "gpu_benchmark_performed": false,
+  "model_benchmark_performed_in_this_revision": false
+}

@@ -1,0 +1,7 @@
+﻿training_fraction_percent,training_images,TF-LMedSAM_Dice_percent,TransUNet_Dice_percent
+10,38,59.82,34.28
+20,77,63.04,43.3
+40,153,67.46,54.12
+60,230,69.94,61.34
+80,306,71.32,64.05
+100,383,72.15,65.4

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "same_document_updated": true,
+  "modified_paragraphs": 10,
+  "red_font_checked": true,
+  "equations_preserved": 55,
+  "rendered_pages": 22,
+  "reference_numbers_29_30_preserved": true,
+  "original_dataset_photo_reuse_claim_added": false,
+  "separate_permission_claim_added": false,
+  "final_document_sha256": "d9dcf808266220d4d07719f2e62204a33a84b25b7a78b5291aeaef0beea433a1"
+}

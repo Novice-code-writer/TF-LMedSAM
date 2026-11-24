@@ -1,0 +1,77 @@
+{
+  "path_base": "records/unified/comment4",
+  "files": [
+    {
+      "path": "benchmark_protocol.json",
+      "sha256": "c91c127217d002765004dd5132f1327f88f5a4e108fa025ac86573eed5b6a7fe"
+    },
+    {
+      "path": "hardware_inventory.json",
+      "sha256": "8ae96bac7251298cf57ba8b5cdaedfcee0d10fbd36291a6595c624978c2fcf9e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "806a3643e8f60a5293374403d012cc0e299d7898a3a06417d685d9d811da1111"
+    },
+    {
+      "path": "reference_throughput.csv",
+      "sha256": "5c0f3db9c454dec139411a93a404cb94690d476c4d8d3e3e188e09c3396a7b50"
+    },
+    {
+      "path": "reference_timing/index.json",
+      "sha256": "a4c4495fc8f36fc9187ded3003c438bd69fd9f965dcefc73279e5607954b3108"
+    },
+    {
+      "path": "reference_timing/method_1_samples.csv",
+      "sha256": "4f6d9f522d85a14822f461de6dba6932f7c7b48ae2871e29e9dd6028685522b9"
+    },
+    {
+      "path": "reference_timing/method_1_summary.json",
+      "sha256": "cdcf9a1c21023ca049ad914c442fec3eff84b25ac3e1dbc04abc5f200370c2a3"
+    },
+    {
+      "path": "reference_timing/method_2_samples.csv",
+      "sha256": "473fa213808515e38e53c0fc00569243a2acb760aa013a4e4b236ad4e58dc422"
+    },
+    {
+      "path": "reference_timing/method_2_summary.json",
+      "sha256": "dafc2a10b193a7b360579e20428eb04c6df5903558689193f5db6f3a85d0bd86"
+    },
+    {
+      "path": "reference_timing/method_3_samples.csv",
+      "sha256": "508048a6244a7128359b1005514bdde8c97b401e937781c56514a29ee62aa699"
+    },
+    {
+      "path": "reference_timing/method_3_summary.json",
+      "sha256": "a82c99dc4780fff092549fa7017af0082504e63bf6897533673dd6301af4ecc5"
+    },
+    {
+      "path": "reference_timing/method_4_samples.csv",
+      "sha256": "bb25dabe5dfae460273c4a9469b0885271f15efab2dff62c49e737cb536e8409"
+    },
+    {
+      "path": "reference_timing/method_4_summary.json",
+      "sha256": "91277be99ea38e6be636c8b3f01680497c3b4d9314388bde3811f2911919c10e"
+    },
+    {
+      "path": "reference_timing/verification.json",
+      "sha256": "b58aae006dfaa41626de69dd14b4e60c878f2d8abd086becdbbccc87acf0d8d2"
+    },
+    {
+      "path": "reference_timing/材料说明.txt",
+      "sha256": "cd8ac127a3468a98728b49a3b555b1110473ac43d5e5c3fa83d41c299c32b9d4"
+    },
+    {
+      "path": "reviewer_response_en.txt",
+      "sha256": "2051197879bdb44d3226b6aa789c5efd3a5a4294cc166f31f920b74a71180105"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "3a75117ee3c4e32cad07b1e5d52be25f591a877ecfe9c836f5dded9361f9616a"
+    },
+    {
+      "path": "材料说明.txt",
+      "sha256": "ecf28bb5db4eff11b1c6b0ef615d359e39c1de99b9d569ff20eb0f81309d925c"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "provenance_notice": "../../材料来源与适用范围.txt",
+  "source_manifest": "../../../数据记录/report_linked_demo/split.csv",
+  "source_manifest_sha256": "244fc2a036651a2a75a6d4783d0694a04e0c9e5631491aae37847e853f949bee",
+  "image_identity": "DEMO source identifiers retained; files copied into one local data directory",
+  "ref_role": "initial per-class score ordering only, not image identity or an additional evaluation set",
+  "case_role": "historical scores and statistics superseded; new statistics recomputed from these masks",
+  "aliases": [
+    {
+      "id": "ablation/IDRiD/+ Uncertainty Loss (Full)",
+      "result_id": "comparison/IDRiD/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TF-LMedSAM/100",
+      "result_id": "comparison/DDR/TF-LMedSAM"
+    },
+    {
+      "id": "training_fraction/DDR/TransUNet/100",
+      "result_id": "comparison/DDR/TransUNet"
+    }
+  ]
+}

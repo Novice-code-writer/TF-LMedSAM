@@ -10,6 +10,7 @@ from scipy.stats import norm
 from tflmedsam import CLASSES
 from tflmedsam.io import read_csv,write_csv,write_json,digest
 from tflmedsam.metrics import measure
+from project_paths import source_file
 
 def seed(*values):return int(hashlib.sha256('|'.join(map(str,values)).encode()).hexdigest()[:8],16)
 
@@ -25,12 +26,12 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args()
     if a.output.exists() and any(a.output.iterdir()):raise ValueError('Choose an empty output directory')
     a.output.mkdir(parents=True);root=Path(__file__).resolve().parent;jobs=[]
-    for r in read_csv(root/'source_data/table2.csv'):
+    for r in read_csv(source_file('table2.csv')):
         for dataset in ['IDRiD','DDR']:
             jobs.append(dict(experiment='comparison',dataset=dataset,method=r['method'],dice=float(r[dataset+'_Dice_percent']),iou=float(r[dataset+'_IoU_percent'])))
-    for r in read_csv(root/'source_data/table3.csv'):
+    for r in read_csv(source_file('table3.csv')):
         jobs.append(dict(experiment='ablation',dataset='IDRiD',method=r['configuration'],dice=float(r['Dice_percent']),iou=float(r['IoU_percent'])))
-    for r in read_csv(root/'source_data/table4.csv'):
+    for r in read_csv(source_file('table4.csv')):
         for source,target in [('IDRiD','DDR'),('DDR','IDRiD')]:
             jobs.append(dict(experiment=f'cross_{source}_to_{target}',dataset=target,method=r['method'],dice=float(r[source+'_to_'+target+'_Dice_percent']),iou=None))
     records=[];summary=[];case_cache={}
