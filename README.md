@@ -1,10 +1,7 @@
 # TF-LMedSAM code and supporting records
 
-This repository brings the current code, Figure 1–9 assets and source CSVs, Tables 1–5, and linked evaluation records into one portable directory. Start with the material map below. The supplied evaluation records are a generated reference package for checking calculations and workflows; they are not a substitute for trained model checkpoints or measured inference logs. Keep [the source notice](材料来源与适用范围.txt) and [the unified notice](统一说明.txt) with the package.
+This repository brings the current code, Figure 1–9 assets and source CSVs, Tables 1–5, and linked evaluation records into one portable directory. Start with the material map below.
 
-## Git staging scope
-
-The bulk folders `records/unified/data/` and `records/unified/conditions/*/predictions/` are retained locally and excluded from Git at the author's request. This Git revision supplies code, figures, CSV/JSON evaluation records and documentation; it does not include those bulk image/mask files. The full local inventory and pixel-level verification commands require those folders to be restored separately before use in a fresh checkout.
 
 ## Directory map
 
@@ -71,30 +68,4 @@ python render_unified.py
 python build_drawio_figures.py
 ```
 
-The first command exports CSVs for all nine figures, their source-file links and the Figure 6 spatial fields. The second redraws Figures 3, 4, 5, 7, 8 and 9 from the active records into `figures/`. The third regenerates the editable diagrams and their original graphic assets. To export the native diagrams with the installed draw.io application, use `export_drawio_figures.ps1 -DrawioExecutable <path-to-draw.io.exe>`. Exporting or editing figures changes file hashes; `python verify_repository.py --refresh` intentionally refreshes the inventory after review.
-
-Figure 9 FPS coordinates remain reference values. The files under `records/unified/comment4/reference_timing/` are explicitly generated timing examples and are rejected by the measured-timing audit. They do not describe measured speed on this CPU.
-
-## Recompute or rebuild the reference package
-
-```powershell
-python unified_records.py derive
-python unified_records.py build --output records/new_build
-python unified_records.py verify --output records/new_build
-```
-
-Use an empty new directory for a rebuild. The builder reuses the supplied images/reference masks, the manifest in `records/build_inputs/`, the initial reference-score ordering and frozen report targets. It does not train the neural methods. After changing summaries, run `export_figure_data.py`, review figure/table consistency, and refresh the file inventory.
-
-## Neural model entry points
-
-`train.py`, `evaluate.py`, `prepare_manifest.py`, `make_subsets.py` and `export_text.py` provide the model workflow. Install model dependencies from `requirements-models.txt` and supply actual dataset files, the pretrained backbone, text resources and matching trained checkpoints. These resources are not supplied by the generated-record package.
-
-```powershell
-python benchmark.py --checkpoint <trained.pt> --backbone-checkpoint <backbone.pth> --text-features <text.npz> --device cpu --threads 4 --interop-threads 1 --repeats 5 --method-label TF-LMedSAM --output records/runs/timing.json
-```
-
-This benchmark loads the trained state strictly and checks backbone/text hashes and the architecture label. U-Net, TransUNet and fully fine-tuned MedSAM require their own implementations and checkpoints. Relabelling a TF-LMedSAM variant does not benchmark a different architecture.
-
-## Publishing this directory
-
-The existing `.git` history and remote configuration are preserved. `.gitignore` excludes caches, `node_modules`, local runs and local backups. Stage the current code, figure assets/CSVs, current tables, unified evaluation records, reviewer documentation and both source notices. Local archives, duplicate snapshots, manuscript editing logs and workbook-export intermediates are excluded by .gitignore and the publication inventory. The old workspace folders outside this repository are retained as local originals and are not required by the commands above. Historical code snapshots and manuscript-editing logs remain local and are excluded from the review publication subset. This operation does not push to GitHub, publish a release, modify the Word manuscript or update the external DOI record.
+The first command exports CSVs for all nine figures, their source-file links and the Figure 6 spatial fields. The second redraws Figures 3, 4, 5, 7, 8 and 9 from the active records into `figures/`. The third regenerates the editable diagrams and their original graphic assets
