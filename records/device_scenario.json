@@ -1,0 +1,21 @@
+{
+  "record_type": "synthetic_device_scenario",
+  "measured": false,
+  "cpu_label": "Intel Core i5-4590 @ 3.30 GHz",
+  "execution_device_label": "cpu",
+  "memory_capacity_label_GB": 16,
+  "batch_size": 1,
+  "input_shape": [
+    1,
+    3,
+    1024,
+    1024
+  ],
+  "precision": "float32",
+  "threads": 4,
+  "interop_threads": 1,
+  "note": "Illustrative protocol labels, not a device performance measurement.",
+  "peak_memory_bytes": null,
+  "measured_power_watts": null,
+  "actual_model_executed": false
+}

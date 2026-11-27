@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "method": "U-Net",
+      "sample_rows": 500,
+      "fps": 45.0,
+      "state_hash_verified": true,
+      "sample_hash_verified": true
+    },
+    {
+      "method": "TransUNet",
+      "sample_rows": 500,
+      "fps": 20.0,
+      "state_hash_verified": true,
+      "sample_hash_verified": true
+    },
+    {
+      "method": "MedSAM (Full)",
+      "sample_rows": 500,
+      "fps": 14.999999999999996,
+      "state_hash_verified": true,
+      "sample_hash_verified": true
+    },
+    {
+      "method": "TF-LMedSAM",
+      "sample_rows": 500,
+      "fps": 27.999999999999993,
+      "state_hash_verified": true,
+      "sample_hash_verified": true
+    }
+  ],
+  "verification_scope": "Generated fixture consistency only; not model or hardware verification.",
+  "actual_models_executed": 0,
+  "observed_device_measurements": 0
+}

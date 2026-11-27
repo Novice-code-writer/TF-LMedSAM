@@ -1,0 +1,21 @@
+{
+  "record_type": "synthetic_benchmark_summary",
+  "method": "TF-LMedSAM",
+  "actual_model_executed": false,
+  "measured_on_device": false,
+  "reference_fps": 28.0,
+  "computed_fps": 27.999999999999993,
+  "latency_mean_ms": 35.71428571428572,
+  "latency_median_ms": 35.70259126928317,
+  "latency_p95_ms": 37.12365938062592,
+  "warmup_executed": false,
+  "intended_warmup_iterations": 30,
+  "scenario_state_file": "records\\method_4\\scenario_state.json",
+  "scenario_state_sha256": "567c560ab36b660387475e9c0f84a309d32e495482d852fb251ecff6d4054381",
+  "neural_checkpoint_path": null,
+  "neural_checkpoint_sha256": null,
+  "samples_file": "records\\method_4\\synthetic_execution.jsonl",
+  "samples_sha256": "43c2c4fe785c1abfa8ef06d9218130c6b38755a728a9b6ee91fcd3974f5c58ea",
+  "device_scenario_file": "records\\device_scenario.json",
+  "device_scenario_sha256": "f2fad9a78159e7d56e4ba4e5caf7b6e2edc3b6a2b4d34841fea4d9084777e0c1"
+}

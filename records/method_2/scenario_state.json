@@ -1,0 +1,12 @@
+{
+  "record_type": "synthetic_timing_generator_state",
+  "method": "TransUNet",
+  "random_seed": 20261129,
+  "target_fps": 20.0,
+  "repeats": 5,
+  "samples_per_repeat": 100,
+  "distribution": "lognormal durations rescaled to target FPS",
+  "neural_checkpoint": false,
+  "neural_weights_available": false,
+  "actual_model_executed": false
+}

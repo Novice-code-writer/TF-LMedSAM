@@ -1,0 +1,21 @@
+{
+  "record_type": "synthetic_benchmark_summary",
+  "method": "U-Net",
+  "actual_model_executed": false,
+  "measured_on_device": false,
+  "reference_fps": 45.0,
+  "computed_fps": 45.0,
+  "latency_mean_ms": 22.22222222222222,
+  "latency_median_ms": 22.254212768265003,
+  "latency_p95_ms": 23.056953542583873,
+  "warmup_executed": false,
+  "intended_warmup_iterations": 30,
+  "scenario_state_file": "records\\method_1\\scenario_state.json",
+  "scenario_state_sha256": "7e7da184f87cdeb2266290f19f94d39684a1c6603a97e760bc70459dc5bf21f5",
+  "neural_checkpoint_path": null,
+  "neural_checkpoint_sha256": null,
+  "samples_file": "records\\method_1\\synthetic_execution.jsonl",
+  "samples_sha256": "a9ae6e04eabfebb18b716bbeb322259bdfd8d7e5f87c42eb4b92c01571cbac59",
+  "device_scenario_file": "records\\device_scenario.json",
+  "device_scenario_sha256": "f2fad9a78159e7d56e4ba4e5caf7b6e2edc3b6a2b4d34841fea4d9084777e0c1"
+}

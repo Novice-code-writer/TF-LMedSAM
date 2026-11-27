@@ -1,0 +1,21 @@
+{
+  "record_type": "synthetic_benchmark_summary",
+  "method": "MedSAM (Full)",
+  "actual_model_executed": false,
+  "measured_on_device": false,
+  "reference_fps": 15.0,
+  "computed_fps": 14.999999999999996,
+  "latency_mean_ms": 66.66666666666669,
+  "latency_median_ms": 66.67750325954627,
+  "latency_p95_ms": 69.28964209298256,
+  "warmup_executed": false,
+  "intended_warmup_iterations": 30,
+  "scenario_state_file": "records\\method_3\\scenario_state.json",
+  "scenario_state_sha256": "e3c2a154994246253904faf1104a6387851ecc8ce2aa9227e2033163483da474",
+  "neural_checkpoint_path": null,
+  "neural_checkpoint_sha256": null,
+  "samples_file": "records\\method_3\\synthetic_execution.jsonl",
+  "samples_sha256": "946f88ce776da23cbda21854797838f2c48cb705653bebe92aa635af4d1023af",
+  "device_scenario_file": "records\\device_scenario.json",
+  "device_scenario_sha256": "f2fad9a78159e7d56e4ba4e5caf7b6e2edc3b6a2b4d34841fea4d9084777e0c1"
+}
